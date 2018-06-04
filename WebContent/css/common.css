@@ -1,0 +1,1299 @@
+body{
+	color: #333;
+	font-size: 14px;
+	background-color: #F2F4F5;
+	list-style: none!important;
+	line-height: normal;
+	padding-top: 62px;
+	overflow-x: hidden;
+	-webkit-tap-highlight-color:rgba(255,0,0,0);
+	font-family: "Hiragino Sans GB","华文细黑","STHeiti","微软雅黑","Microsoft YaHei",SimHei,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+input:not[text='checkbox'],textarea{
+	border-radius: 4px!important;
+	border: none;
+	outline: none;
+	appearance: button;
+    -moz-appearance: button; /* Firefox */
+    -webkit-appearance: button; /* Safari �?Chrome */
+}
+textarea{
+	resize: none;
+}
+select{
+	background-color: transparent;
+}
+img{
+	display: block;
+}
+span,i,em{
+	display: inline-block;
+	vertical-align: middle;
+}
+a:focus{
+	text-decoration: none;
+}
+a,a:hover{
+	color: #333;
+	text-decoration: none;
+	-webkit-tap-highlight-color:rgba(255,0,0,0);
+}
+.text-overflow{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+ul,ol{
+	list-style: none;
+}
+.clearfix:before,.clearfix:after{
+	content: '';
+	display: table;
+}
+.clearfix:after{
+	clear: both;
+}
+.clearfix{
+	zoom: 1;
+}
+.modal-backdrop.in{
+	opacity: 0.8;
+}
+.modal-dialog{
+	margin: 0 auto;
+}
+.modal-togter{
+	margin: 100px auto 0;
+}
+.main-color{
+	color: #77c0cd;
+}
+.main-bg{
+	background-color: #77c0cd;
+}
+.sub-bg{
+	background-color: #66c7d0;
+}
+.main-b{
+	background-color: #F8F9FB!important;
+}
+.main-line{
+	width: 100%;
+	height: 30px;
+	background-color: transparent;
+}
+.main-white{
+	width: 100%;
+	background-color: #fff;
+}
+.text-color1{
+	color: #666;
+}
+.text-color2{
+	color: #999;
+}
+.text-color3{
+	color: #ccc;
+}
+.text-color4{
+	color: #eee;
+}
+.text-color5{
+	color: #fff;
+}
+.text-color6{
+	color: #484848;
+}
+.text-color7{
+	color: #000;
+}
+.common-h2{
+	margin: 80px 0 50px;
+	font-weight: bold;
+}
+.font-size1{
+	font-size: 12px;
+}
+.font-size2{
+	font-size: 18px;
+}
+.font-size3{
+	font-size: 24px;
+}
+.font-size4{
+	font-size: 32px;
+}
+.font-size5{
+	font-size: 50px;
+}
+.font-size6{
+	font-size: 16px;
+}
+.gray{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.8);
+	z-index: 2000;
+	display: none;
+}
+.navbar-inverse .navbar-nav>li>a{
+	color: #333;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+	color: #000;
+}
+.navbar-nav.navbar-right:last-child{
+	margin-right: 0;
+}
+.navbar{
+	height: 62px;
+	border-bottom: 2px solid #EFEFED;
+}
+.navbar .container{
+	margin-top: 6px;
+}
+.container{
+	max-width: 1000px;
+	padding: 0;
+}
+.login-line{
+	padding: 15px 10px!important;
+}
+.login-section{
+	padding: 0 10px!important;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-right: 1px solid #5D5D5D;
+}
+.phone-num a{
+	cursor: default;
+	-moz-user-select:none;/*火狐*/
+    -webkit-user-select:none;/*webkit浏览�?/
+    -ms-user-select:none;/*IE10*/
+    -khtml-user-select:none;/*早期浏览�?/
+    user-select:none;
+}
+.phone-num i{
+	width: 26px;
+	height: 26px;
+	position: absolute;
+	top: 11px;
+    left: -15px;
+	display: inline-block;
+	background: url("../images/spring.png")/*tpa=http://www.wanzi.cc/images/spring.png*/ no-repeat -232px 0;
+}
+.help-center a{
+	padding-right: 40px!important;
+}
+.help-center i,.quit-login span i{
+	width: 7px;
+	height: 4px;
+	position: absolute;
+	top: 23px;
+    right: 27px;
+	display: inline-block;
+	background: url("../images/spring.png")/*tpa=http://www.wanzi.cc/images/spring.png*/ no-repeat -248px -29px;
+}
+.help-center ul{
+	width: 248px;
+	background-color: #fff;
+	border: 2px solid #efefed;
+	border-top: none;
+	position: absolute;
+	top: 54px;
+	left: -6px;
+	padding: 20px 20px 0;
+}
+.help-center ul li a{
+	padding-right: 0!important;
+}
+.help-center ul li{
+	margin-bottom: 20px;
+}
+.help-center ul li.arrange-travel{
+	border-bottom: 1px solid #efefed;
+	margin-bottom: 16px;
+	padding-bottom: 16px;
+}
+.arrange-travel a{
+	padding: 0!important;
+}
+.load-section{
+	width: 352px;
+	height: 223px;
+	position: absolute;
+	left: -10px;
+	top: 54px;
+}
+.load-section img{
+	width: 352px;
+	height: 223px;
+}
+.load-section div{
+	width: 348px;
+	position: absolute;
+	left: 2px;
+	bottom: 22px;
+}
+.load-section div p{
+	margin: 0;
+}
+.load-section div span{
+	width: 50%;
+	display: inline-block;
+}
+.search-history,.searching-area{
+	background-color: #fff;
+	border: 1px solid #CCCCCC;
+	border-radius: 4px;
+	margin-top: 3px;
+	display: none;
+}
+.search-history{
+	padding: 18px 16px 8px;
+}
+.search-history p{
+	margin-bottom: 14px;
+}
+.search-history a{
+	display: inline-block;
+	margin: 0 10px 12px;
+}
+.search-history div{
+	margin-bottom: 8px;
+}
+.search-history div a:last-child{
+	margin-right: 0;
+}
+.searching-area{
+	padding: 12px 0;
+	height: 200px;
+	overflow-y: auto;
+}
+.searching-area ul{
+	margin: 0;
+	padding: 0;
+}
+.searching-area li{
+	width: 100%;
+	padding: 0 16px;
+	cursor: pointer;
+	height: 26px;
+	line-height: 26px;
+	background: #fff;
+}
+.searching-area li:hover,.searching-area li.active{
+	background-color: #eee;
+	font-weight: bold;
+}
+.main-search input{
+	width: 300px;
+	height: 32px;
+	padding: 7px 30px 7px 16px;
+	margin: 10px 0 0 15px;
+	border: 1px solid #E4E4E4;
+	border-radius: 20px!important;
+}
+.main-search i{
+	width: 14px;
+	height: 14px;
+	position: absolute;
+	top: 18px;
+	right: 16px;
+	cursor: pointer;
+	display: inline-block;
+	background: url("../images/spring.png")/*tpa=http://www.wanzi.cc/images/spring.png*/ no-repeat -283px -19px;
+}
+.main-search .search-history,.main-search .searching-area{
+	width: 300px;
+	margin-left: 15px;
+}
+/* 登录之后状�?*/
+.guide-header{
+	width: 28px;
+	height: 28px;
+	border: 1px solid #EFEFEF;
+	border-radius: 50%;
+	display: inline-block;
+}
+.quit-login{
+	margin-top: -4px;
+}
+.quit-login span{
+	width: 60px;
+	margin-right: 18px;
+}
+.quit-login span i{
+	top: 28px;
+}
+.quit-login ul{
+	width: 205px;
+	padding-left: 0;
+	background-color: #fff;
+	border: 2px solid #efefed;
+	border-top: none;
+	position: absolute;
+	left: 0;
+	top: 58px;
+	display: none;
+	padding: 0 40px;
+}
+.quit-login ul li{
+	padding: 16px 0;
+}
+.quit-login ul li.my-travel{
+	border-bottom: 1px solid #efefed;
+}
+.my-trav{
+	display: none!important;
+}
+.mian-top{
+	display: block!important;
+}
+/* 小星�?*/
+i.start1,i.start2,i.start3{
+	width: 15px;
+	height: 14px;
+}
+i.start3{
+	background: url("../images/spring.png")/*tpa=http://www.wanzi.cc/images/spring.png*/ no-repeat -295px 0;
+}
+i.start2{
+	background: url("../images/spring.png")/*tpa=http://www.wanzi.cc/images/spring.png*/ no-repeat -278px 0;
+}
+i.start1{
+	background: url("../images/spring.png")/*tpa=http://www.wanzi.cc/images/spring.png*/ no-repeat -261px 0;
+}
+/* 小地�?*/
+i.lit{
+	width: 11px;
+	height: 14px;
+	margin: -2px 5px 0 0;
+	background: url("../images/spring.png")/*tpa=http://www.wanzi.cc/images/spring.png*/ no-repeat -248px -39px;
+}
+/* 视频 */
+.video-box{
+	position: relative;
+}
+.video-box{
+	position: relative;
+	overflow-y: hidden;
+}
+.video-box span{
+	width: 83px;
+	height: 44px;
+	position: absolute;
+	right: 30px;
+	bottom: 20px;
+	cursor: pointer;
+	z-index: 10;
+	background: url("../images/spring.png")/*tpa=http://www.wanzi.cc/images/spring.png*/ no-repeat -112px -74px;
+}
+.video-box img{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+/* 右侧悬浮客服以及返回顶部 */
+body #YSF-BTN-HOLDER {
+	right: 40px;
+	bottom: 185px;
+	max-width: none;
+	max-height: none;
+	z-index: 16;
+}
+#YSF-BTN-HOLDER #YSF-CUSTOM-ENTRY-0{
+	right:0;
+	bottom:0;
+	box-shadow:none;
+}
+.side-item {
+	width: 80px;
+	height: 80px;
+	position: fixed;
+	right: 40px;
+	z-index: 16;
+	border-radius: 4px;
+	display: none;
+}
+.side-item img {
+	width: 100%;
+}
+.suspend-section{
+	bottom: 100px;
+	opacity: 0;
+	cursor: pointer;
+}
+.custom-btn{
+    width: 36px;
+    height: 34px;
+    cursor: pointer;
+    margin-top: 13px;
+    display: inline-block;
+    background: url("../images/spring.png")/*tpa=http://www.wanzi.cc/images/spring.png*/ no-repeat -312px 0;
+}
+.back-btn{
+	width: 35px;
+	height: 19px;
+	cursor: pointer;
+	margin-top: 20px;
+	display: inline-block;
+	background: url("../images/spring.png")/*tpa=http://www.wanzi.cc/images/spring.png*/ no-repeat -263px -40px;
+}
+/* 数据记载完成 */
+.no-data{
+	width: 100%;
+	height: 120px;
+	position: relative;
+}
+.no-data div{
+	width: 300px;
+    height: 66px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -150px;
+}
+.no-data span{
+	position: absolute;
+	top: 20px;
+	left: 90px;
+}
+/* 分页�?*/
+.pagination>li>a{
+	border: none;
+	background-color: transparent;
+	color: #666;
+}
+.pagination>li>a:hover{
+	color: #666;
+	background-color: transparent;
+}
+.pagination>li>a>span{
+	width: 26px;
+	height: 26px;
+	margin-top: 2px;
+	display: inline-block;
+}
+.previous-l a,.next-r a{
+    padding: 0!important;
+}
+.previous-l a span{
+	margin-right: 8px;
+	background: url("../images/spring.png")/*tpa=http://www.wanzi.cc/images/spring.png*/ no-repeat -144px -28px;
+}
+.next-r a span{
+	margin-left: 8px;
+	background: url("../images/spring.png")/*tpa=http://www.wanzi.cc/images/spring.png*/ no-repeat -144px 0;
+}
+.pagination li.cur a{
+	text-decoration: underline;
+}
+/* 错误页面 */
+.error-section{
+	padding-bottom: 92px;
+}
+.errorm-img{
+	display: none;
+}
+.error-img{
+	margin: 70px auto 25px;
+}
+.error-section strong{
+	font-size: 21px;
+}
+.error-text{
+    margin: 38px 0 18px;
+}
+.error-section a{
+	width: 150px;
+	height: 46px;
+	color: #fff;
+	line-height: 46px;
+	border-radius: 50px;
+	display: inline-block;
+}
+/* 向导资料列表 */
+.guide-common{
+	margin-bottom: 4px;
+}
+.guide-common .common-name{
+	font-weight: bold;
+}
+.guide-common .text-overflow{
+	width: 49%;
+	display: inline-block;
+}
+.guide-common .guide-tag{
+	margin-right: 12px;
+}
+/* 网站底部 */
+.footer-section{
+	padding-top: 50px;
+}
+.footer-section .row:first-child{
+	padding-bottom: 20px;
+}
+.footer-section h5{
+	font-weight: bold;
+	margin-bottom: 50px;
+}
+.hidden-section p{
+	margin-bottom: 7px;
+}
+.hidden-section p a{
+	color: #666;
+}
+.tel-num{
+	width: 47px;
+	height: 22px;
+	margin-right: 16px;
+	border: 1px solid #333333;
+	border-radius: 11px;
+	display: inline-block;
+}
+.work-hours{
+	margin-top: 32px; 
+}
+.text-bottom{
+	height: 74px;
+	padding: 23px 0;
+	border-top: 1px solid #EEEEEE;
+}
+.text-bottom p{
+	margin: 0;
+}
+.text-bottom .hidden-xs a,.text-bottom .hidden-xs span{
+    float: right;
+}
+.text-bottom .hidden-xs span{
+	line-height: 28px;
+}
+.text-bottom .hidden-xs a{
+	width: 28px;
+	height: 28px;
+	display: inline-block;
+}
+.sina-btn{
+	background: url("../images/spring.png")/*tpa=http://www.wanzi.cc/images/spring.png*/ no-repeat -200px -31px;
+}
+.wei-btn{
+	margin: 0 19px;
+	position: relative;
+	background: url("../images/spring.png")/*tpa=http://www.wanzi.cc/images/spring.png*/ no-repeat -200px 0;
+}
+.wei-btn img{
+	width: 134px;
+	height: 134px;
+}
+.video-section{
+	width: 218px;
+	height: 230px;
+	padding: 40px;
+	background-color: #fff;
+	border: 2px solid #eee;
+	border-radius: 4px;
+	position: absolute;
+	bottom: 46px;
+    right: -87px;
+    z-index: 11;
+    display: none;
+}
+.video-section span{
+	width: 100%;
+	display: block;
+	margin-top: 10px;
+}
+.video-section i{
+	width: 24px;
+	height: 17px;
+	position: absolute;
+	right: 88px;
+    bottom: -17px;
+	background: url("../images/spring.png")/*tpa=http://www.wanzi.cc/images/spring.png*/ no-repeat -282px -74px;
+}
+.home-page,.phone-search,.phone-circle,.load-header{
+	display: none!important;
+}
+.load-section,.help-center ul,.logo-phone{
+	display: none;
+}
+/* 注册登录 */
+.login-modal .modal-dialog,.forget-password .modal-dialog,.telphoto-modal .modal-dialog{
+	width: 344px;
+}
+.login-modal .modal-header,.forget-password .modal-header,.telphoto-modal .modal-header{
+	padding: 20px;
+	border: none;
+}
+.login-modal .modal-body,.forget-password .modal-body,.telphoto-modal .modal-body{
+	padding: 0 30px;
+}
+.login-modal ul{
+	height: 43px;
+	padding: 0;
+	overflow: hidden;
+	font-size: 28px;
+	margin-bottom: 38px;
+	position: relative;
+}
+.login-modal ul span{
+	width: 56px;
+	height: 3px;
+	position: absolute;
+	bottom: 0;
+	left: 40px;
+	background-color: #77c0cd;
+}
+.login-modal li{
+	width: 50%;
+	float: left;
+}
+.login-modal li a:focus{
+	text-decoration: none;
+}
+.login-modal li a{
+	color: #999;
+	font-weight: bold;
+}
+.login-modal li.active a{
+	color: #77c0cd;
+}
+.login-modal select,.login-modal input,.forget-password select,.forget-password input,.telphoto-modal select,.telphoto-modal input{
+	margin-bottom: 10px;
+	height: 40px;
+	padding: 0 14px;
+	border-radius: 5px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	border: 1px solid #CCCCCC;
+}
+.login-modal .left,.forget-password .left,.telphoto-modal .left{
+	float: left;
+	position: relative;
+}
+.code-number{
+	width: 104px;
+	height: 40px;
+	border: 1px solid #CCCCCC;
+	background-color: #fff;
+	line-height: 40px;
+	padding: 0 14px;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 5px;
+}
+.select-arrow{
+	width: 8px;
+	height: 13px;
+	position: absolute;
+	top: 14px;
+	right: 14px;
+	background: url("../images/select-arrow.png")/*tpa=http://www.wanzi.cc/images/select-arrow.png*/;
+}
+.login-modal .right,.forget-password .right,.telphoto-modal .right{
+	float: right;
+}
+.login-modal select,.forget-password select,.telphoto-modal select{
+	width: 104px;
+	border-radius: 5px;
+	opacity: 0;
+	cursor: pointer;
+}
+.phone-code{
+	width: 169px;
+}
+.login-modal button.main-bg,.forget-password button.main-bg,.telphoto-modal button.main-bg,.yan-number{
+	width: 90px;
+	color: #fff;
+	outline: none;
+	border: none;
+	height: 40px;
+	cursor: pointer;
+	line-height: 40px;
+	border-radius: 5px;
+	font-size: 13px;
+	background-color: #77c0cd;
+}
+.login-modal label{
+	font-size: 12px;
+	color: #999;
+	margin: 0 0 14px;
+	cursor: pointer;
+	font-weight: normal;
+}
+.login-modal label input,.login-modal label input:focus{
+	height: auto;
+	margin: 0 2px 0;
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-appearance: normal;
+}
+.form-input{
+	width: 100%;
+}
+.login-modal button.rester-btn,.forget-password button.rester-btn,.telphoto-modal button.rester-btn{
+	color: #fff;
+	width: 100%;
+	font-size: 16px;
+	margin-bottom: 13px;
+}
+.rester-explain{
+	padding-bottom: 22px;
+	margin: 0;
+}
+.rester-explain a:hover,.rester-explain a:focus{
+	color: #77c0cd;
+	text-decoration: none;
+}
+.password-text{
+	position: relative;
+}
+.password-text label{
+	margin-bottom: 14px;
+}
+.password-text span{
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.login-rester button.login-btn{
+	width: 100%;
+	font-size: 16px;
+}
+.other-login{
+	margin: 24px 0 18px;
+	font-size: 13px; 
+}
+.other-login span{
+	margin: 0 22px;
+}
+.other-login i{
+	width: 73px;
+	height: 1px;
+	background-color: #E4E4E4;
+}
+.other-login p:last-child{
+	padding: 0;
+}
+.wx-login{
+	width: 45px;
+	height: 44px;
+	display: inline-block;
+	margin: 0 50px 0 69px;
+	background: url("../images/spring.png")/*tpa=http://www.wanzi.cc/images/spring.png*/ no-repeat -46px -175px;
+}
+.sina-login{
+	width: 44px;
+	height: 44px;
+	display: inline-block;
+	background: url("../images/spring.png")/*tpa=http://www.wanzi.cc/images/spring.png*/ no-repeat 0 -175px;
+}
+/* 忘记密码 */
+.forget-password h4,.telphoto-modal h4{
+	font-size: 28px;
+	font-weight: bold;
+	margin: 0 0 40px;
+}
+/* 评论小星星为空布局错乱 */
+.guide-list span,#swiper2 span{
+	vertical-align: baseline;
+}
+/* 手机�?*/
+@media (max-width: 768px){
+	body{
+		padding-top: 1.76rem;
+		font-size: 0.32rem;
+		overflow-x: hidden;
+		-webkit-overflow-scrolling: touch;
+	}
+	.font-size1{
+		font-size: 0.24rem;
+	}
+	.font-size2{
+		font-size: 0.36rem;
+	}
+	.font-size3{
+		font-size: 0.42rem;
+	}
+	.font-size4{
+		font-size: 0.48rem;
+	}
+	.font-size5{
+		font-size: 0.6rem;
+	}
+	.font-size6{
+		font-size: 0.32rem;
+	}
+	.container{
+		padding: 0 0.5rem;
+	}
+	img{
+		border-radius: 0.08rem!important;
+	}
+	a{
+		-webkit-tap-highlight-color:rgba(255,0,0,0);
+	}
+	input,textarea,button{
+		border: none;
+		outline: none;
+		resize: none;
+		font-size: 0.32rem;
+		color: #999;
+		-webkit-tap-highlight-color:rgba(255,0,0,0);
+	}
+	button{
+		-webkit-user-select:none
+	}
+	.main-line{
+		height: 0.2rem;
+	}/* 
+	.mian-top{
+		padding-top: 0.64rem;
+	} */
+	.login-line{
+		padding: 0 15px!important;
+		margin: 0;
+		border: none;
+	}
+	.login-section{
+		padding: 0!important;
+		border: none;
+	}
+	.container>.navbar-header,.container>.navbar-collapse{
+		margin-right: -0.3rem;
+		margin-left: -0.3rem;
+	}
+	.load-img{
+		display: none!important;
+	}
+	/* 注册登录 */
+	.login-modal .modal-body,.forget-password .modal-body,.telphoto-modal .modal-body{
+		padding: 0 0.5rem;
+	}
+	.login-modal .modal-dialog,.login-modal .modal-content,.forget-password .modal-dialog,.forget-password .modal-content,.telphoto-modal .modal-dialog,.telphoto-modal .modal-content{
+		width: 100%;
+		border: none;
+		border-radius: 0;
+	}
+	.login-modal li a{
+		font-size: 0.46rem;
+	}
+	.login-modal input,.login-modal select,.forget-password input,.forget-password select,.telphoto-modal input,.telphoto-modal select,.code-number{
+		height: 44px;
+		margin-bottom: 0.28rem;
+		padding: 0 0.24rem;
+	}
+	.yan-number{
+		width: 2.2rem!important;
+		height: 44px;
+		line-height: 44px;
+	}
+	.login-modal select,.forget-password select,.telphoto-modal select{
+		width: 2rem;
+	}
+	.phone-code{
+		width: 4.2rem;
+	}
+    .other-login{
+	    padding: 0.5rem 0 0.4rem;
+	}
+	.other-login p.text-color2{
+		display: none;
+	}
+	.other-login p:last-child{
+		padding: 18px 0 200px;
+	}
+	.rester-explain{
+		padding-bottom: 0.5rem;
+	}
+	.other-title{
+		width: 6.52rem;
+		height: 0.25rem;
+		margin: 0!important;
+		background: url("../images/other-line.png")/*tpa=http://www.wanzi.cc/images/other-line.png*/;
+		-webkit-background-size: 100% 100%;
+		background-size: 100% 100%;
+	}
+	.login-modal button.main-bg,.forget-password button.main-bg{
+		width: 2rem;
+		height: 44px;
+		line-height: 44px;
+	}
+	.yan-code{
+		width: 4rem;
+	}
+	.login-modal button.rester-btn,.login-modal button.login-btn,.forget-password button.rester-btn,.forget-password button.login-btn,.telphoto-modal .rester-btn,.telphoto-modal button.login-btn{
+		width: 100%;
+		font-size: 0.32rem;
+	}
+	.login-modal ul span{
+		display: none;
+	}
+	.login-modal li.active a{
+		border-bottom: 3px solid #77c0cd;
+	}
+	.wx-login,.sina-login{
+		width: 1.2rem;
+		height: 1.2rem;
+	}
+	.wx-login{
+		margin: 0 1.36rem;
+		background: url("../images/wx.png")/*tpa=http://www.wanzi.cc/images/wx.png*/;
+		-webkit-background-size: 100% 100%;
+		background-size: 100% 100%;
+	}
+	.sina-login{
+		background: url("../images/sina.png")/*tpa=http://www.wanzi.cc/images/sina.png*/;
+		-webkit-background-size: 100% 100%;
+		background-size: 100% 100%;
+	}
+	.login-modal label,.rester-explain{
+		font-size: 0.24rem;
+	}
+	.quit-login{
+		display: none!important;
+	}
+	.my-travel{
+		padding-top: 0.52rem;
+		border-top: 1px solid #EEEEEE; 
+	}
+	.my-trav,.slide-li{
+		display: block!important;
+	}
+	/* 忘记密码 */
+	.forget-password .modal-content,.telphoto-modal .modal-content{
+		padding-bottom: 360px;
+	}
+	/* 右侧固定样式 */
+	.suspend-section,body #YSF-BTN-HOLDER{
+		display: none;
+	}
+	/* 顶部下载APP */
+	.load-header{
+		width: 7.5rem;
+		height: 0.88rem;
+		padding: 0 0.3rem;
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 1033;
+		background-color: #333;
+	}
+	.header-logo{
+		width: 3.06rem;
+	    height: 0.68rem;
+	    position: absolute;
+	    top: 0.1rem;
+	    left: 0.3rem;
+	}
+	.load-href{
+		width: 1.8rem;
+		height: 0.68rem;
+		line-height: 0.68rem;
+		display: block;
+		border-radius: 0.08rem;
+		position: absolute;
+		top: 0.1rem;
+		right: 0.3rem;
+	}
+	/* 顶部搜索 */
+	.navbar-fixed-top{
+		top: 0.88rem;
+	}
+    .navbar{
+		height: 0.88rem!important;
+		min-height: 0.88rem;
+		z-index: 1033;
+		border-bottom: 0.04rem solid #EFEFED;
+	}
+	.navbar .container{
+		height: 0.88rem;
+		margin-top: 0!important;
+		padding: 0 0.3rem;
+	}
+	.navbar-header{
+		height: 0.88rem;
+		position: relative;
+	} 
+	.navbar-toggle{
+		position: absolute;
+		top: 0.24rem;
+		right: 0.3rem;
+		margin: 0;
+		padding: 0;
+		border-radius: 0;
+	}
+	.navbar-brand{
+        height: 0.88rem;
+        line-height: 0.88rem;
+	}
+	.navbar-inverse .navbar-toggle,.navbar-inverse .navbar-collapse{
+		border: none;
+	}
+	.navbar-inverse .navbar-toggle:focus,.navbar-inverse .navbar-toggle:hover{
+		background-color: transparent;
+	}
+	.navbar-inverse .navbar-toggle .icon-bar{
+		width: 0.4rem;
+		height: 2px;
+		margin-bottom: 0.11rem;
+		border-radius: 0;
+		background-color: #77C1CE;
+	}
+	.phone-search{
+		width: 5.04rem;
+		height: 0.6rem;
+		position: absolute;
+		top: 0.14rem;
+		left: 50%;
+		margin-left: -2.52rem;
+	}
+	.phone-search input{
+		width: 5.04rem;
+		height: 0.6rem;
+		line-height: 0.6rem;
+		border: 1px solid #C0C0C0;
+		border-radius: 0.5rem!important;
+		font-size: 0.3rem;
+		padding: 0.2rem 0.44rem 0.2rem 0.3rem;
+		box-sizing: border-box;
+		-webkit-sizing: border-box;
+	}
+	.phone-search i{
+		width: 0.28rem;
+		height: 0.28rem;
+		display: inline-block;
+		position: absolute;
+		top: 0.16rem;
+		right: 0.3rem;
+		background: url("../images/header-seach.png")/*tpa=http://www.wanzi.cc/images/header-seach.png*/;
+		-webkit-background-size: 100% 100%;
+		background-size: 100% 100%;
+	}
+	.navbar-nav li a{
+		padding-left: 0!important; 
+		padding-bottom: 0.64rem!important;
+	}
+	.navbar-fixed-top .navbar-collapse{
+		height: 15rem;
+		padding: 0 0.56rem;
+		max-height: none!important;
+		background-color: #fff;
+	}
+	.navbar-nav{
+		margin: 0;
+	}
+	.navbar-collapse li a{
+		font-size: 0.36rem;
+	}
+	.slide-li{
+		border-bottom: 0.02rem solid #EEEEEE;
+	}
+	.home-page a{
+        padding: 0.52rem 0!important;
+	}
+	.help-center a{
+		padding-top: 0.52rem!important;
+	}
+	.hidden-md a{
+        padding-top: 0;
+	}
+	.slide-li{
+		border-bottom: 1px solid #EEEEEE;
+	}
+	.home-page,.help-center i,.logo-web,.phone-num,.main-search{
+		display: none!important;
+	}
+	.hidden-section{
+		display: none;
+	}
+	.logo-phone img{
+		width: 0.59rem;
+		height: 0.4rem;
+		display: block;
+		position: absolute;
+		top: 0.24rem;
+		left: 0.3rem;
+	}
+	.phone-circle,.load-header,.phone-search,.logo-phone,.home-page{
+		display: block!important;
+	}
+	/* 小星�?*/
+	i.start1,i.start2,i.start3{
+		width: 0.29rem;
+		height: 0.27rem;
+	}
+	i.start1{
+        background: url("../images/start1.png")/*tpa=http://www.wanzi.cc/images/start1.png*/;
+        -webkit-background-size: 100% 100%;
+		background-size: 100% 100%;
+	}
+	i.start2{
+        background: url("../images/start2.png")/*tpa=http://www.wanzi.cc/images/start2.png*/;
+        -webkit-background-size: 100% 100%;
+		background-size: 100% 100%;
+	}
+	i.start3{
+        background: url("../images/start3.png")/*tpa=http://www.wanzi.cc/images/start3.png*/;
+        -webkit-background-size: 100% 100%;
+		background-size: 100% 100%;
+	}
+	/* 视频 */
+	.video-box span{
+		width: 1.66rem;
+		height: 0.88rem;
+		background: url("../images/play.png")/*tpa=http://www.wanzi.cc/images/play.png*/;
+		-webkit-background-size: 100% 100%;
+		background-size: 100% 100%;
+	}
+	/* 错误页面 */
+	.error-section{
+		padding-bottom: 92px;
+	}
+	.errorm-img{
+		width: 6.19rem;
+		height: 2.92rem;
+		display: block;
+		margin: 1.38rem 0 0.5rem;
+	}
+	.error-img{
+		display: none;
+	}
+	.error-section strong{
+		font-size: 0.32rem;
+	}
+	.error-text{
+		font-size: 0.26rem;
+	    margin: 1.22rem 0 0.3rem;
+	}
+	.error-section a{
+		width: 3rem;
+		height: 0.98rem;
+		color: #fff;
+		line-height: 0.98rem;
+		border-radius: 50px;
+		display: inline-block;
+	}
+	/* 底部 */
+	.footer-section{
+		padding-top: 1.2rem;
+	}
+	.footer-section h5{
+		padding: 0.3rem 0;
+		margin: 0;
+		font-size: 0.32rem;
+		font-weight: normal;
+		position: relative;
+		border-bottom: 1px solid #EDEDED;
+	}
+	.footer-section h5 i,.help-section .arrow-btn,.items-list .arrow-down{
+		width: 0.29rem;
+		height: 0.16rem;
+		display: block;
+		position: absolute;
+		top: 0.39rem;
+		right: 0;
+		background: url("../images/footer-down.png")/*tpa=http://www.wanzi.cc/images/footer-down.png*/;
+		-webkit-background-size: 100% 100%;
+		background-size: 100% 100%;
+	}
+	.footer-section h5 i.current,.help-section .arrow-btn.current,.items-list li.current .arrow-down{
+		background: url("../images/footer-up.png")/*tpa=http://www.wanzi.cc/images/footer-up.png*/;
+		-webkit-background-size: 100% 100%;
+		background-size: 100% 100%;
+	}
+	.footer-section .row:first-child{
+		padding: 0;
+	}
+	.hidden-section p{
+		margin: 0 0.3rem;
+		padding: 0.3rem 0;
+		border-bottom: 1px solid #EDEDED;
+	}
+	.text-bottom{
+		border: none;
+	}
+	/* 评论 */
+	.comment-section{
+		border-bottom: none;
+	}
+	.comment-section .comment-img{
+	    width: 60px;
+	    height: 60px;
+	    border: 1px solid #eee;
+	    border-radius: 50%!important;
+	}
+	.comment-section .left{
+		width: 100%!important;
+	}
+	.comment-section .left p{
+        font-size: 0.32rem;
+	}
+	.comment-section .left img{
+		width: 0.8rem;
+		height: 0.8rem;
+		margin-right: 0.2rem;
+		display: inline-block;
+	}
+	.comment-section .left span{
+		display: inline-block!important;
+	}
+	.comment-section .left span:last-child{
+		float: right;
+		margin-top: 0.14rem;
+		margin-right: 0;
+	}
+	.comment-section .right .row{
+		display: none;
+	}
+	.comment-section .right .comment-photo ul li,.comment-section .right .comment-photo ul li img{
+		width: 1.22rem!important;
+		height: 1.22rem!important;
+		margin-right: 0.1rem;
+		margin-bottom: 0.1rem;
+	}
+	.comment-time{
+		margin: 0.24rem 0 0.44rem!important;
+		font-size: 0.24rem;
+	}
+	.comment-revert{
+		border-radius: 0.08rem;
+		margin: 0.16rem 0 0.24rem;
+		padding: 0.3rem;
+		position: relative;
+		background-color: #EEEEEE;
+	}
+	.more-comment{
+		font-weight: bold;
+		margin: 0.44rem 0 0.72rem;
+	}
+	.slide-section .right ul{
+		overflow: hidden;
+		padding-left: 0;
+	}
+	.slide-section .right ul li{
+		float: left;
+	}
+	.comment-revert i{
+		width: 16px;
+		height: 8px;
+		position: absolute;
+		top: -8px;
+		left: 10px;
+		background: url("../images/spring.png")/*tpa=http://www.wanzi.cc/images/spring.png*/ no-repeat -194px -61px;
+	}
+    .comment-section .right{
+        border-bottom: 1px solid #F3F4F5;
+    }
+    .slide-main .left p{
+    	margin: 0.72rem 0 0.44rem;
+    }
+}

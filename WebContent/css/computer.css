@@ -1,0 +1,2244 @@
+/* 列表�?*/
+.banner-bg{
+	width: 100%;
+	height: 400px;
+	background: url("../images/list-bg.jpg")/*tpa=http://www.wanzi.cc/images/list-bg.jpg*/;
+	background-position: 50% 50%;
+    background-size: cover;
+    position: relative;
+}
+.contry-title{
+	position: absolute;
+	left: 50%;
+	bottom: 30px;
+	-webkit-transform: translate(-50%,0);
+	-ms-transform: translate(-50%,0);
+	transform: translate(-50%,0);
+}
+.contry-title h2,.contry-title p{
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+}
+.contry-title h2{
+    margin-bottom: 130px;
+}
+.contry-title p strong{
+	margin-right: 6px;
+}
+.filter-section{
+	border: 1px solid #eee;
+	padding: 12px 30px 0;
+	border-radius: 4px;
+	margin-top: 30px;
+	position: relative;
+}
+.filter-section .col-sm-10{
+	width: 82%;
+	border-bottom: 1px solid #eee;
+}
+.guide-sort .col-sm-10{
+	border-bottom: none;
+}
+.time-select{
+	width: 152px;
+	height: 34px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+.middle-line{
+	width: 6px;
+	height: 1px;
+	margin: 0 15px;
+	background-color: #ccc;
+}
+.filter-time{
+	line-height: 34px;
+}
+.filter-time .col-sm-10{
+	padding: 0 0 12px 0;
+}
+.filter-city{
+	padding-top: 22px;
+}
+.filter-city span{
+	cursor: pointer;
+	padding: 0 40px 22px 0;
+}
+.filter-common{
+    font-weight: bold;
+    color: #77c0cd;
+}
+.guide-list{
+	padding-top: 50px;
+}
+.guide-list .col-sm-4{
+	margin-bottom: 50px;
+}
+.selected-city,.city-line,.arrow-btn,.list-arrow,.service-title,.welfare-mob{
+	display: none;
+}
+.service-mobile{
+	display: none!important;
+}
+.guide-img{
+	width: 100%;
+	border-radius: 4px;
+	margin-bottom: 16px;
+}
+/* 列表页搜索为�?*/
+.no-g{
+	margin: 60px auto 30px;
+}
+.no-m{
+	display: none;
+}
+.no-guide{
+	padding-bottom: 80px;
+}
+.no-guide h4{
+	font-weight: bold;
+	font-size: 21px;
+	margin: 0 0 70px;
+}
+.no-detail{
+	margin: 0 0 30px 340px;
+}
+.list-btn{
+	width: 150px;
+	height: 44px;
+	line-height: 44px;
+	font-weight: bold;
+	display: inline-block;
+	border-radius: 25px;
+	background-color: #77c0cd;
+}
+.list-btn:hover{
+	color: #fff;
+}
+/*团队企业服务*/
+.service-bg{
+	width: 100%;
+	height: 500px;
+	background: url("../images/list-bg.jpg")/*tpa=http://www.wanzi.cc/images/list-bg.jpg*/;
+	background-position: 50% 50%;
+    background-size: cover;
+    position: relative;
+}
+.service-bg h3{
+	margin-bottom: 24px;
+}
+.service-bg h3,.service-bg p{
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+}
+.service-bg div{
+	position: absolute;
+	left: 50%;
+	bottom: 50px;
+	transform: translate(-50%,0);
+	-webkit-transform: translate(-50%,0);
+	-ms-transform: translate(-50%,0);
+}
+.service-text{
+	margin: 50px 0 90px;
+	line-height: 1.7;
+}
+.service-container img{
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.service-container h3{
+	margin: 0 0 30px;
+}
+.service-container .row{
+	margin: 50px 0 90px;
+}
+.visit-img p:nth-child(2){
+	margin-left: 5px;
+}
+.portal_us{
+	margin-bottom: 0!important;
+}
+.portal_us input{
+	height: 50px;
+	margin-bottom: 15px;
+}
+.portal_us button{
+	width: 126px;
+	height: 45px;
+	color: #add9e1;
+	margin: 20px 0 80px;
+	border: 1px solid #add9e1;
+	background-color: transparent;
+}
+.portal_us .btn:hover,.portal_us .btn:focus,.portal_us .btn:active,.portal_us .btn.active{
+	color: #add9e1;
+	border: 1px solid #ccc;
+	box-shadow: none;
+	outline: none;
+}
+.portal_us img{
+	margin-top: 40px;
+}
+.content-tel{
+	margin: 60px 0 0 140px;
+}
+.content-tel p{
+	margin-bottom: 20px;
+}
+.content-tel p span:first-child{
+	width: 90px;
+}
+.content-tel p span:last-child{
+	font-weight: bold;
+}
+.consult-section{
+	border-top: 1px solid #EEEEEE;
+	padding-top: 40px;
+}
+.service-container .row.service-system{
+	margin-bottom: 60px;
+}
+.service-system img{
+	width: 85px;
+	height: 70px;
+}
+.visit-img img{
+	width: 100%;
+}
+.welfare-section img{
+	width: 120px;
+	height: 90px;
+}
+/* 加入我们 */
+.join-bg{
+	width: 100%;
+	height: 533px;
+	background: url("../images/join-bg.jpg")/*tpa=http://www.wanzi.cc/images/join-bg.jpg*/;
+	background-position: 50% 50%;
+    background-size: cover;
+    position: relative;
+}
+.join-bg div{
+	position: absolute;
+	left: 30%;
+	bottom: 45px;
+}
+.join-bg div h3{
+	margin-bottom: 20px;
+}
+.join-bg div h3,.join-bg div p{
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+}
+.team-photo{
+	position: relative;
+}
+.team-photo h3{
+	margin: 100px 0 16px 0;
+}
+.team-photo h6{
+	margin-bottom: 70px;
+}
+#swiper{
+	width: 788px;
+	position: static;
+}
+#swiper img{
+	width: 240px;
+	height: 150px;
+}
+.swiper-arrow{
+	width: 52px;
+	height: 52px;
+	position: absolute;
+	top: 300px;
+}
+.swiper-button-prev{
+	left: 0;
+	background: url("../images/spring.png")/*tpa=http://www.wanzi.cc/images/spring.png*/ no-repeat -56px -74px;
+}
+.swiper-button-next{
+	right: 0;
+    background: url("../images/spring.png")/*tpa=http://www.wanzi.cc/images/spring.png*/ no-repeat 0 -74px;
+}
+.culture-section{
+	overflow: hidden;
+	margin-bottom: 75px;
+}
+.culture-section div{
+	float: left;
+}
+.culture-section .right{
+	width: 200px;
+	margin-left: 20px;
+}
+.culture-section img{
+	width: 75px;
+	height: 75px;
+}
+.welfare-pc{
+	width: 95px;
+	height: 95px;
+	margin: 60px 0 0;
+	display: inline-block;
+}
+.welfare-bg{
+	padding-bottom: 40px;
+}
+.welfare-bg h6{
+	margin-bottom: 70px;
+}
+.welfare-bg p{
+	margin-bottom: 20px;
+}
+.jobs-section h3{
+	padding: 100px 0 16px 0;
+	margin: 0;
+}
+.jobs-section h6{
+	margin: 0 0 50px;
+}
+.jobs-btn{
+	width: 175px;
+	height: 47px;
+	line-height: 47px;
+	margin-bottom: 10px;
+	cursor: pointer;
+	border: 1px solid #ccc;
+	border-radius: 50px;
+	display: inline-block;
+}
+.more-jobs{
+	padding: 15px 0 80px;
+}
+.more-jobs a{
+	text-decoration: underline;
+}
+.more-jobs a:hover,.more-jobs a:focus{
+	color: #77c0cd;
+}
+.jobs-modal .modal-header{
+	border-bottom: none;
+	padding: 60px 40px 0;
+}
+.jobs-modal .modal-header h4{
+	padding-bottom: 20px;
+	border-bottom: 1px solid #ccc;
+}
+.jobs-modal .modal-body{
+	padding: 40px 40px 60px;
+}
+.jobs-modal ul{
+	padding-left: 19px;
+}
+.jobs-modal ul li{
+	list-style: disc;
+	margin-bottom: 10px;
+}
+.jobs-modal h5{
+	margin: 0 0 15px;
+}
+.require-list{
+	margin-top: 35px!important;
+}
+.jobs-modal .modal-header .close{
+	margin-top: -40px;
+	font-size: 40px;
+	font-weight: normal;
+}
+/* 副导�?*/
+.sub-nav{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #F7F9FA;
+}
+.sub-nav div{
+	padding: 0;
+	height: 40px;
+}
+.sub-nav a:hover,.sub-nav a:focus{
+	color: #999;
+	text-decoration: none;
+}
+.sub-nav .current a{
+	color: #77c0cd;
+}
+/* 关于我们 */
+.absoutus{
+	padding-bottom: 40px;
+}
+.mobile-h{
+	display: none;
+}
+.absoutus h3{
+	margin: 0 0 56px;
+	font-weight: bold;
+}
+.absoutus p{
+    line-height: 21px;
+    margin-bottom: 20px;
+}
+.absoutus img{
+	margin: 90px auto 10px;
+}
+/* 联系我们 */
+.contactus{
+	padding: 20px 0 70px; 
+}
+.contactus h3{
+	font-weight: bold;
+	margin: 50px 0 20px;
+}
+.contactus p{
+	margin-left: 70px;
+}
+/* 网站地图 */
+.map-section{
+	padding: 35px 0 80px;
+}
+.map-section h3{
+	font-weight: bold;
+	margin: 0 0 20px;
+}
+.map-section p{
+	margin-bottom: 45px;
+}
+.map-section h6{
+	padding-left: 5px;
+	font-weight: bold;
+	margin: 30px 0 15px;
+	border-left: 4px solid #77c0cd; 
+}
+.map-section span{
+	margin: 0 14px 14px 0;
+}
+/* 媒体报道 */
+.media-section{
+	padding: 90px 0 30px;
+}
+.media-section h4{
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.media-section p{
+	margin-bottom: 50px;
+}
+.media-section a:hover{
+	color: #77c0cd;
+}
+.media-section a:focus{
+	color: #333;
+	text-decoration: none;
+}
+/* 订单列表�?*/
+.order-nav{
+	width: 100%;
+}
+.order-section{
+	padding-top: 0;
+}
+.order-section .row{
+	padding-bottom: 0!important;
+}
+.my-order{
+	position: relative;
+}
+.order-line{
+	width: 40px;
+	height: 2px;
+	position: absolute;
+	left: 105px;
+	bottom: 0;
+	background-color: #77c0cd;
+}
+.order-section h5{
+	margin: 0;
+	line-height: 40px;
+	padding: 0;
+}
+.order-section .hidden-section{
+	display: none;
+}
+.order-main{
+	padding: 34px 0 44px;
+}
+.order-main li{
+	margin-bottom: 12px;
+}
+.order-left li.current,.hidden-section p.current{
+	font-weight: bold;
+}
+.order-left li a:focus{
+	color: #666;
+	text-decoration: none;
+}
+.order-main li a:hover{
+	color: #666;
+}
+.mobile-time{
+	margin-bottom: 4px;
+}
+.order-main ul{
+	padding: 0;
+}
+.order-list{
+	border: 1px solid #E4E4E4;
+	padding: 21px 25px 0;
+	margin-bottom: 15px;
+}
+.order-title{
+	margin: 0;
+	border-bottom: 1px solid #E4E4E4;
+	padding-bottom: 21px;
+	margin-bottom: 21px;
+}
+.order-title .col-sm-9{
+	padding-left: 0;
+}
+.order-title strong{
+	color: #333;
+}
+.order-list .col-sm-3{
+	padding-right: 0;
+}
+.order-detail{
+	width: 120px;
+	height: 34px;
+	color: #86cad5;
+	line-height: 34px;
+	border-radius: 17px;
+	display: inline-block;
+	border: 1px solid #86cad5;
+}
+.order-detail:hover{
+	color: #86cad5;
+}
+.order-det .mobile-time{
+	margin-bottom: 10px;
+}
+.order-number{
+	margin-left: 24px;
+}
+.order-time p{
+	line-height: 34px;
+	margin: 0 0 14px;
+}
+.detail-title div{
+	padding: 0;
+}
+.detail-main .mobile-time{
+	line-height: normal;
+}
+.order-remark{
+	padding: 14px 8px;
+	background-color: #EEEEEE;
+	border-radius: 4px;
+	margin-bottom: 25px;
+	line-height: 1.7;
+}
+.pay-section{
+	padding-top: 18px;
+	border-top: 1px solid #F5F5F5;
+	position: relative;
+}
+.go-paly{
+	width: 130px;
+	height: 42px;
+	display: inline-block;
+	color: #fff;
+	line-height: 42px;
+	border-radius: 25px;
+	background-color: #77c0cd;
+	position: absolute;
+	top: 17px;
+	right: 15px;
+}
+.go-paly:hover,.go-paly:focus{
+	color: #fff;
+	text-decoration: none;
+}
+.pay-section .mony-order{
+	line-height: 42px;
+	margin-bottom: -1px;
+}
+.mony-order strong{
+	vertical-align: middle;
+	font-size: 18px;
+}
+.text-tips{
+	margin-bottom: 30px;
+}
+/* 订单为空 */
+.no-order{
+	margin: 145px auto;
+}
+.no-order a{
+	width: 124px;
+	height: 38px;
+	line-height: 38px;
+	border: 1px solid #77c0cd;
+	border-radius: 50px;
+	text-align: center;
+	margin: 20px auto 0;
+	display: block;
+}
+.no-order a:focus,.no-order a:hover{
+	color: #77c0cd;
+}
+/* 订单支付页面 */
+.pay-way span{
+	margin-right: 60px;
+	cursor: pointer;
+}
+.pay-way span:last-child{
+	margin-right: 0;
+}
+.pay-way i{
+	width: 14px;
+	height: 14px;
+	margin-right: 10px;
+	cursor: pointer;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../images/spring.png")/*tpa=http://www.wanzi.cc/images/spring.png*/ no-repeat -283px -116px;
+}
+.pay-way span.active i,.pay-no span.active i{
+	background: url("../images/spring.png")/*tpa=http://www.wanzi.cc/images/spring.png*/ no-repeat -283px -132px;
+}
+.go-pay{
+	width: 130px;
+	height: 38px;
+	color: #fff;
+	line-height: 38px;
+	cursor: pointer;
+	border: none;
+	margin-bottom: 10px;
+	border-radius: 50px;
+	display: inline-block;
+	background-color: #77c0cd;
+}
+.pay-no{
+	margin-bottom: 20px;
+}
+.underline-pay{
+	margin: 0 0 20px;
+	display: none;
+}
+.underline-pay div{
+	padding-top: 20px;
+}
+.underline-pay .col-sm-10{
+	border-top: 1px solid #eee;
+	padding-left: 0;
+}
+.underline-pay .col-sm-2{
+	padding-left: 0;
+}
+.order-det .col-sm-2{
+	padding-right: 0;
+}
+/* 新手上路帮助中心页面 */
+.new-hands{
+	height: 40px;
+	line-height: 40px;
+}
+.help-section .hidden-section{
+	display: none;
+}
+.help-section a:hover,.help-section a:focus{
+	color: #999;
+	text-decoration: none;
+}
+.help-section .current a.text-color2{
+	font-weight: bold;
+	color: #333;
+	padding-bottom: 9px;
+	border-bottom: 2px solid #77c0cd;
+}
+.help-section a:hover{
+	color: #333;
+}
+.help-title .col-sm-9{
+	padding-right: 0;
+}
+.help-main{
+	padding: 60px 0;
+}
+.help-main h3{
+	margin: 0 0 42px;
+	font-weight: bold;
+}
+.problem-list li{
+    margin: 0;
+    padding: 18px 0;
+    border-bottom: 1px solid #F7F7F7;
+}
+.problem-list li.last_li{
+	border-bottom: none;
+}
+.datail1_p{
+	margin-bottom: 40px;
+	color: #666;
+}
+.problem-section{
+	border-top: 1px solid #F7F7F7;
+	padding-top: 20px;
+	margin-bottom: 20px;
+}
+.solve-problem strong{
+	margin: 0 5px;
+	cursor: pointer;
+}
+.feedback-text,.nosolve-text{
+	display: none;
+	margin-bottom: 20px;
+}
+.no-solve{
+	display: none;
+}
+.no-solve p{
+	margin-bottom: 30px;
+}
+.no-solve label{
+	margin: 0 46px 15px 0;
+	font-weight: normal;
+	cursor: pointer;
+}
+.no-solve textarea{
+	display: none;
+}
+.no-solve label i{
+	width: 15px;
+	height: 15px;
+	background: url("../images/spring.png")/*tpa=http://www.wanzi.cc/images/spring.png*/ no-repeat -216px -116px;
+	margin-right: 10px;
+}
+.no-solve label.current i{
+    background-position: -198px -116px;
+}
+.problem-section textarea{
+	border: 1px solid #eee;
+	width: 72%;
+	padding: 14px;
+}
+.problem-section button{
+	width: 110px;
+	height: 35px;
+	margin-top: 20px;
+	border-radius: 4px;
+	color: #add9e1;
+	background-color: transparent;
+	border: 2px solid #add9e1;
+}
+.change-section p{
+	margin-bottom: 20px;
+}
+.tel-problem{
+	width: 72%;
+	height: 40px;
+	display: none;
+	border: 1px solid #eee;
+	margin: 15px 0 20px;
+}
+.tel-problem div{
+	float: left;
+	height: 40px;
+	position: relative;
+}
+.tel-problem input{
+	width: 402px;
+	height: 38px;
+	border: none;
+}
+.tel-problem select{
+	width: 104px;
+	height: 40px;
+	border: none;
+	opacity: 0;
+	bottom: 0;
+	position: absolute;
+	left: 0;
+}
+.tel-problem .left{
+	width: 104px;
+	margin-right: 10px;
+}
+.tel-problem .code-number{
+	border: none;
+	height: 38px;
+	padding: 10px;
+	line-height: normal;
+	border-right: 1px solid #eee;
+	background-color: transparent;
+}
+/* 保障计划条款 */
+.items-text{
+	margin-bottom: 20px;
+}
+.items-left{
+	margin-left: 20px;
+}
+.items-left em{
+	vertical-align: baseline;
+}
+.items-sub{
+	margin-left: 40px;
+}
+.items-list li{
+	line-height: 50px;
+	position: relative;
+	margin-bottom: 0;
+	cursor: pointer;
+}
+.item-title{
+    border-bottom: 1px solid #eee;
+    margin-bottom: 0;
+}
+.items-list li.current .item-title,.items-list li:last-child .item-title{
+	border-bottom: 0;
+}
+.hidden-list p{
+	line-height: 1.5;
+	margin-bottom: 24px;
+}
+.hidden-list{
+	display: none;
+	background-color: #f2f4f5;
+	padding: 24px 24px 0;
+}
+.arrow-down{
+	width: 15px;
+    height: 8px;
+    display: block;
+    position: absolute;
+    top: 21px;
+    right: 0;
+    background: url("../images/spring.png")/*tpa=http://www.wanzi.cc/images/spring.png*/ no-repeat -198px -133px;
+}
+.items-list li.current .arrow-down{
+	background-position: -198px -142px;
+}
+/* 免责声明 */
+.discla-list{
+	margin-left: 40px;
+}
+.discla-list p{
+	margin-bottom: 20px;
+}
+/* 隐私政策 */
+.policy-line{
+	width: 100px;
+	height: 2px;
+	background-color: #EEEEEE;
+	margin: 30px 0 50px;
+}
+/* 定制旅行 */
+.travel-bg{
+	width: 100%;
+    height: 400px;
+    background: url("../images/travel-bg.jpg")/*tpa=http://www.wanzi.cc/images/travel-bg.jpg*/;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.travel-main h4{
+	font-size: 20px;
+	font-weight: bold;
+	margin: 20px 0 40px;
+}
+.travel-title{
+	font-size: 22px;
+	margin: 35px 0 25px;
+}
+.travel-detail{
+	padding-bottom: 25px;
+	border-bottom: 1px solid #eee;
+	margin-bottom: 28px;
+}
+.travel-main .row p{
+	line-height: 40px;
+	margin-bottom: 30px;
+}
+.travel-main{
+	width: 626px;
+}
+.form-control {
+    border-radius: 2px 0 0 2px!important;
+}
+.order-time1,.add-city{
+	width: 220px;
+	height: 40px;
+	border-radius: 20px!important;
+	border: 1px solid #CCCCCC;
+	float: left;
+}
+.add-city{
+	width: 160px;
+	margin: 0 10px 15px 0;
+}
+.add-city:focus{
+	border: 1px solid #77c0cd;
+	box-shadow: none;
+}
+.order-time1 input{
+	width: 50%!important;
+	height: 22px;
+	float: left;
+	margin-top: 9px;
+	text-align: center;
+	box-shadow: none;
+	border: none;
+	background-color: transparent!important;
+}
+.form-control[readonly]{
+	cursor: default;
+}
+.order-time1 input:focus{
+	box-shadow: none;
+}
+.order-time1 input#demand-end{
+	float: right;
+    border-left: 1px solid #CCCCCC!important;
+}
+.add-btn i{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	margin: 5px 20px 20px 0;
+	cursor: pointer;
+	background: url("../images/spring.png")/*tpa=http://www.wanzi.cc/images/spring.png*/ no-repeat -93px -175px;
+}
+.person-section{
+	overflow: hidden;
+}
+.person-section label,.person-main{
+	float: left;
+	line-height: 40px;
+	font-weight: normal;
+}
+.mony-person{
+	margin-right: 44px;
+}
+.person-main{
+	width: 130px;
+	margin: 0 10px;
+	position: relative;
+}
+.order-min,.order-add{
+    width: 38px;
+    height: 38px;
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+    display: inline-block;
+}
+.order-min{
+	left: 0;
+	background: url("../images/min.png")/*tpa=http://www.wanzi.cc/images/min.png*/;
+}
+.order-add{
+	right: 0;
+	background: url("../images/add.png")/*tpa=http://www.wanzi.cc/images/add.png*/;
+}
+#person-num{
+	width: 52px!important;
+    border-left: 1px solid #CCCCCC!important;
+    border-right: 1px solid #CCCCCC!important;
+    position: absolute;
+    top: 0;
+    left: 40px;
+}
+#person-num:focus{
+	outline: none;
+}
+.car_radio label{
+	cursor: pointer;
+	font-weight: normal;
+	position: relative;
+}
+.car_radio input{
+    width: 20px;
+    height: 20px;
+    opacity: 0;
+}
+.car_radio label i{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 10px;
+	left: 0;
+	cursor: pointer;
+	background: url("../images/spring.png")/*tpa=http://www.wanzi.cc/images/spring.png*/ no-repeat -146px -174px;
+}
+.car_radio label.current i{
+	background-position: -125px -174px;
+}
+.order-remarks{
+	padding: 20px 0;
+	margin: 22px 0 0;
+	border-top: 1px solid #eee;
+}
+.remarks-text{
+	width: 626px;
+	height: 120px;
+	border: 1px solid #eee;
+	padding-bottom: 20px;
+	position: relative;
+	margin-bottom: 25px;
+}
+.remarks-text textarea{
+	width: 100%;
+	height: 90px;
+	padding: 14px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border: none;
+	outline: none;
+}
+.remarks-text span{
+	color: #ccc;
+	position: absolute;
+	right: 5px;
+	bottom: 5px;
+}
+.submit-btn,.see-order{
+	width: 156px;
+	height: 48px;
+	display: block;
+	border: none;
+	border-radius: 50px;
+	margin: 0 auto 80px;
+}
+.submit-btn:focus{
+	outline: none;
+}
+.city-section .city-name,.city-section1 .city-name{
+	float: left;
+	position: relative;
+}
+.city-name input{
+	padding-right: 26px;
+}
+.city-name i{
+	width: 10px;
+	height: 10px;
+	background: url("../images/delte.png")/*tpa=http://www.wanzi.cc/images/delte.png*/;
+	position: absolute;
+	top: 16px;
+	right: 23px;
+	cursor: pointer;
+}
+/* 定制旅行提交成功页面 */
+.travel-img{
+	margin-top: 75px;
+}
+.travel-m{
+	display: none;
+}
+.travel-w{
+	margin: 94px 0 0 0;
+	display: inline-block;
+}
+.success-text{
+	font-size: 22px;
+	font-weight: bold;
+	margin: 40px 0 65px;
+}
+.success-detail{
+	margin-bottom: 30px;
+}
+.see-order{
+	line-height: 48px;
+}
+.see-order:focus,.see-order:hover{
+	color: #fff;
+	text-decoration: none;
+}
+.success-title{
+	position: relative;
+}
+.travel-line{
+	width: 1px;
+	height: 100px;
+	position: absolute;
+	top: 113px;
+    left: 398px;
+	background-color: #eee;
+}
+/* 订单失败页面 */
+.travel-fail{
+	margin: 75px auto 0;
+}
+.order-status{
+	margin: 15px auto 70px;
+}
+/* 服务标准页面 */
+.standard-main{
+	padding-bottom: 40px;
+}
+.standard-main .row{
+	margin: 0;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	border-bottom: 1px solid #eee;
+}
+.standard-main .row:last-child{
+	border-bottom: none;
+}
+.standard-main h4{
+	margin: 30px 0 60px;
+}
+.standard-main p{
+	line-height: 1.7;
+}
+.set-m{
+	display: none;
+}
+/* 为什么成为丸�?*/
+.why-guide,.join-wanzi{
+	overflow: hidden;
+	position: relative;
+	height: 450px;
+}
+.why-guide .left,.why-guide .right,.join-wanzi .left,.join-wanzi .right{
+	float: left;
+}
+.why-guide .left{
+	width: 57%;
+	height: 450px;
+	background: url("../images/why.png")/*tpa=http://www.wanzi.cc/images/why.png*/;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+.why-guide .left img{
+	width: 100%;
+}
+.why-guide .right{
+	width: 43%;
+	height: 450px;
+	padding: 80px 110px 54px 90px;
+}
+.why-guide .right h2{
+	margin-bottom: 60px;
+	margin-top: 0;
+}
+.why-guide .right p{
+	margin-bottom: 20px;
+	line-height: 24px;
+}
+.why-video{
+	margin-bottom: 120px;
+}
+.video-box i{
+	width: 78px;
+	height: 78px;
+	background: url("../images/why-play.png")/*tpa=http://www.wanzi.cc/images/why-play.png*/;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -39px;
+	margin-top: -39px;
+	z-index: 10;
+	cursor: pointer;
+}
+.why-video .video-box{
+	width: 800px;
+	height: 450px;
+	margin: 0 auto;
+}
+.why-video h4{
+	text-align: left;
+	line-height: 1.3;
+	margin: 100px 0 35px;
+	text-align: center;
+}
+.why-video .video-box img{
+	width: 800px;
+}
+.join-wanzi .left{
+	width: 43%;
+	height: 450px;
+	padding: 95px 248px 152px 100px;
+}
+.join-wanzi .left p{
+	margin-bottom: 20px;
+}
+.join-wanzi .left a{
+	width: 173px;
+	height: 48px;
+	display: block;
+	margin-top: 50px;
+	line-height: 44px;
+	font-size: 20px;
+	overflow: hidden;
+	border: 2px solid #fff;
+	border-radius: 50px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.join-wanzi .left a:hover,.join-wanzi .left a:focus{
+	color: #fff;
+}
+.join-wanzi .right{
+	width: 57%;
+	height: 450px;
+	background: url("../images/why1.png")/*tpa=http://www.wanzi.cc/images/why1.png*/;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+.join-reasons{
+	padding-bottom: 60px;
+}
+.join-reasons p{
+	padding: 0 50px;
+}
+.join-reasons h4{
+	margin: 100px 0 65px;
+}
+.join-reasons img{
+	display: inline-block;
+}
+.join-reasons img.set-m{
+	display: none;
+}
+.join-reasons p{
+	margin-bottom: 30px;
+}
+.join-reasons h5{
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+/* 手机�?*/
+@media (max-width: 768px){
+	.banner-bg{
+		height: 2.1rem;
+	}
+	.list-city{
+		padding: 0;
+		overflow: hidden;
+	}
+	.filter-section{
+		border: none;
+		padding: 0;
+		margin: 0.3rem 0 0.5rem;
+	}
+	.list-arrow{
+		width: 0.7rem;
+		height: 0.42rem;
+		display: block;
+		background: url("../images/list-arrow.jpg")/*tpa=http://www.wanzi.cc/images/list-arrow.jpg*/;
+		-webkit-background-size: 100% 100%;
+		background-size: 100% 100%;
+		position: absolute;
+		left: 50%;
+		bottom: -0.4rem;
+		margin-left: -0.35rem;
+	}
+	.filter-section .col-sm-10{
+		padding: 0;
+		margin: 0 0 0 15px;
+	}
+	.filter-time .col-sm-10,.filter-city .col-sm-10{
+		width: auto;
+	}
+	.filter-city .col-sm-10{
+		padding-bottom: 0.1rem;
+	}
+	.filter-time,.filter-city,.mobile-city .col-sm-2 p,.mobile-city .col-sm-10,.guide-sort .col-sm-2 p,.guide-sort .col-sm-10{
+		padding: 0 0.5rem;
+	}
+	.guide-sort .col-sm-10{
+		border-bottom: 1px solid #eee;
+	}
+	.mobile-city,.guide-sort{
+		padding: 0;
+	}
+	.filter-time input{
+		margin-bottom: 0.3rem;
+	}
+	.contry-title{
+		bottom: 0.3rem;
+	}
+	.contry-title h2{
+		font-size: 0.48rem;
+	    margin-bottom: 0.42rem;
+	}
+	.filter-section p{
+		font-size: 0.24rem;
+		margin-bottom: 0;
+		position: relative;
+	}
+	.time-select{
+		width: 2.9rem;
+		height: 0.66rem;
+		padding: 0 10px!important;
+		font-size: 0.24rem;
+	}
+	.middle-line{
+		width: 0.08rem;
+		height: 1px;
+		margin: 0 0.26rem;
+	}
+	.arrow-city{
+		width: 0.29rem;
+		height: 0.16rem;
+		display: block;
+		position: absolute;
+		top: 6px;
+		right: 0.5rem;
+		background: url("../images/footer-up.png")/*tpa=http://www.wanzi.cc/images/footer-up.png*/;
+		-webkit-background-size: 100% 100%;
+		background-size: 100% 100%;
+	}
+	.arrow-city.current{
+		background: url("../images/footer-down.png")/*tpa=http://www.wanzi.cc/images/footer-down.png*/;
+		-webkit-background-size: 100% 100%;
+		background-size: 100% 100%;
+	}
+	.filter-city{
+		padding-top: 0;
+	}
+	.filter-city p strong{
+		margin: 0.3rem 0;
+		display: block;
+		font-size: 0.32rem;
+	}
+	.filter-city span{
+		font-size: 0.26rem;
+		padding: 0 0.6rem 0.2rem 0;
+	}
+	.selected-city{
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 1.6rem;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 0.32rem;
+	}
+	.city-line{
+		width: 8px;
+		height: 1px;
+		position: absolute;
+		top: 9px;
+		left: 1.1rem;
+		background-color: #333333;
+		margin: 0 0.2rem;
+	}
+	.guide-list .col-xs-12{
+		margin-bottom: 0.5rem;
+	}
+	.guide-img{
+		width: 100%;
+		margin-bottom: 16px;
+		border-radius: 4px;
+	}
+	/* 列表页搜索为�?*/
+	.no-g{
+		display: none;
+	}
+	.no-m{
+		width: 6.43rem;
+		height: 2.87rem;
+		margin: 0.9rem 0 0.6rem;
+		display: block;
+	}
+	.no-guide{
+		padding-bottom: 0.6rem;
+	}
+	.no-guide h4{
+		font-weight: bold;
+		font-size: 21px;
+		margin: 0 0 1rem;
+	}
+	.no-detail{
+		margin: 0 0 0.6rem 0;
+	}
+	.no-detail p{
+		font-size: 0.28rem;
+	}
+	.list-btn{
+		width: 3rem;
+		height: 0.88rem;
+		line-height: 44px;
+		font-weight: bold;
+		display: inline-block;
+		border-radius: 25px;
+		margin-bottom: 0.3rem;
+		background-color: #77c0cd;
+	}
+	.no-guide .row div{
+		text-align: center;
+	}
+	.no-guide .row a{
+		font-size: 0.28rem;
+	}
+	/* 团队企业服务 */
+	.service-container p{
+		font-size: 0.32rem;
+		line-height: 1.7;
+		margin-bottom: 0;
+	}
+	.service-container h3{
+		font-size: 0.48rem;
+		margin: 2rem 0 0.4rem;
+	}
+	.service-container .row{
+		margin: 1rem 0 0;
+	}
+	.service-container .row .col-sm-4{
+		padding: 0;
+	}
+	.service-title{
+		display: inline-block;
+	}
+	.service-bg{
+		height: 2.5rem;
+	}
+	.service-bg div,.swiper-arrow{
+		display: none;
+	}
+	.service-pc{
+		display: none!important;
+	}
+	.service-title h3{
+		margin: 0.6rem 0;
+	}
+	.service-text{
+		margin: 0.4rem 0 0;
+	}
+	.welfare-section img{
+		width: 2.4rem;
+		height: 1.8rem;
+	}
+	.success-img{
+		width: 100%;
+		height: 3.76rem;
+	}
+	.consult-img{
+		width: 5.64rem;
+		height: 2.2rem;
+	}
+	.content-tel{
+		margin: 0.6rem 0 1rem;
+	}
+	.content-tel p span:first-child{
+		width: 1.8rem;
+	}
+	.service-container .text-mobile{
+		margin: 0.3rem 0 1.5rem;
+	}
+	.visit-img{
+		margin-top: 0.6rem!important;
+	}
+	.visit-img .text-color1{
+		text-align: left;
+		margin: 0.4rem 0 1rem!important;
+	}
+	.visit-img .col-sm-4:last-child p.text-color1{
+		margin-bottom: 0!important;
+	}
+	.visit-img img{
+		width: 100%;
+	}
+	.service-container .row.service-system{
+		margin-top: 0;
+	}
+	.service-system img{
+		width: 1.7rem;
+		height: 1.4rem;
+	}
+	.service-system p.font-size2{
+		margin-bottom: 0.6rem;
+	}
+	.consult-section .row{
+		margin: 0;
+	}
+	.consult-section{
+		padding-top: 0;
+	}
+	.consult-section h3{
+        margin: 0.9rem 0 0.85rem;
+	}
+	.content-tel{
+		margin: 0.3rem 0 0 1rem;
+		padding-bottom: 1rem;
+	}
+	.service-mobile{
+		width: 5.64rem;
+		height: 2.2rem;
+		margin-top: 0!important;
+		display: block!important;
+	}
+	/* 加入我们 */
+	.sub-nav{
+		display: none;
+	}
+	.join-bg{
+		height: 3.52rem;
+		background: url("../images/join-bg-m.jpg")/*tpa=http://www.wanzi.cc/images/join-bg-m.jpg*/;
+		background-position: 50% 50%;
+	    background-size: cover;
+	    position: relative;
+	}
+	.join-bg h3{
+		font-size: 0.48rem;
+	}
+	.join-bg p{
+		font-size: 0.32rem;
+	}
+	.join-bg div{
+		position: absolute;
+		left: 0.5rem;
+		bottom: 0.3rem;
+	}
+	.team-photo{
+		position: relative;
+	}
+	#swiper{
+		width: 100%;
+		position: static;
+	}
+	#swiper img{
+		width: 4.8rem;
+		height: 3rem;
+	}
+	.team-photo h3{
+		margin: 1.2rem 0 0.2rem;
+	}
+	.jobs-section h3{
+		padding: 0.9rem 0 0.2rem;
+	}
+	.team-photo h6{
+		margin-bottom: 0.75rem;
+	}
+	/* 加入我们 */
+	.culture-section{
+		margin-bottom: 0.9rem;
+	}
+	.culture-section .right{
+		width: 4.5rem;
+		margin-left: 0.4rem;
+	}
+	.culture-section img{
+		width: 1.5rem;
+		height: 1.5rem;
+	}
+	.culture-section p strong{
+		font-size: 0.36rem;
+	}
+	.culture-section p.text-color1{
+		font-size: 0.28rem;
+	}
+	.welfare-pc{
+		display: none;
+	}
+	.welfare-mob{
+		width: 1.5rem;
+		height: 1.72rem;
+		margin: 0.6rem 0 0;
+		display: inline-block;
+	}
+	.welfare-bg{
+		padding-bottom: 0.5rem;
+	}
+	.welfare-bg h6{
+		margin-bottom: 0.7rem;
+	}
+	.welfare-bg p{
+		font-size: 0.32rem;
+		margin-bottom: 0.25rem;
+	}
+	.jobs-section h6{
+		margin-bottom: 0.65rem;
+	}
+	.jobs-section p{
+		font-size: 0.28rem;
+	}
+	.jobs-btn{
+		width: 3.5rem;
+		height: 0.94rem;
+		line-height:0.92rem;
+		margin-bottom: 5px;
+		cursor: pointer;
+		font-size: 0.32rem;
+		border: 1px solid #ccc;
+		border-radius: 50px;
+		display: inline-block;
+	}
+	.more-jobs{
+		padding: 55px 0 80px;
+	}
+	.jobs-modal .modal-content{
+		border: none;
+		border-radius: 0;
+	}
+	.jobs-modal .modal-header{
+		padding: 1.7rem 0.5rem 0;
+	}
+	.jobs-modal .modal-header h4{
+		padding-bottom: 0.35rem;
+		font-size: 0.48rem;
+	}
+	.jobs-modal .modal-body{
+		height: 80vh;
+		overflow: auto;
+		padding: 0.6rem 0.5rem 1.1rem;
+	}
+	.jobs-modal h5{
+		font-size: 0.36rem;
+        margin: 0 0 0.3rem;
+	}
+	.jobs-modal li{
+		font-size: 0.28rem;
+		margin-bottom: 0.1rem;
+		line-height: 1.5;
+	}
+	.jobs-modal h5.require-list{
+		margin-top: 0.9rem;
+	}
+	.jobs-modal .modal-header .close{
+		margin-top: -70px;
+		font-size: 40px;
+		font-weight: normal;
+	}
+	/* 关于我们 */
+	.absoutus{
+		padding: 0 0 0.5rem;
+	}
+	.absoutus h3,.absoutus p{
+		padding: 0 0.5rem;
+	}
+	.absoutus h3{
+		margin: 0.6rem 0 0.8rem;
+		font-weight: bold;
+		display: none;
+		font-size: 0.48rem;
+	}
+	.absoutus h3.mobile-h{
+		display: block;
+	}
+	.absoutus p{
+	    line-height: 0.48rem;
+	    margin-bottom: 0.4rem;
+	    font-size: 0.32rem;
+	}
+	.absoutus img{
+		width: 100%;
+		margin: 0 0 0.34rem;
+	}
+	/* 联系我们 */
+	.contactus{
+		padding: 0 0.5rem 0.75rem!important; 
+	}
+	.contactus h3{
+		font-weight: bold;
+		font-size: 0.36rem;
+		margin: 0.6rem 0 0.4rem;
+	}
+	.contactus p{
+		margin-left: 0;
+		font-size: 0.28rem;
+		line-height: 1.7;
+		margin-bottom: 0.15rem;
+	}
+	/* 网站地图 */
+	.map-section{
+		padding: 0.6rem 0.5rem 0.9rem;
+	}
+	.map-section h3{
+		font-weight: bold;
+		margin: 0 0 0.5rem;
+		font-weight: 0.48rem;
+	}
+	.map-section p{
+		margin-bottom: 0.6rem;
+		line-height: 1.7;
+	}
+	.map-section h6{
+		padding-left: 0.1rem;
+		font-weight: bold;
+		margin: 0 0 0.3rem;
+		border-left: 4px solid #77c0cd; 
+	}
+	.map-section strong{
+		font-size: 0.28rem;
+	}
+	.map-section span{
+		font-size: 0.28rem;
+		vertical-align: baseline;
+		margin: 0 0.3rem 0.28rem 0;
+	}
+	.map-section .col-xs-2{
+		padding-right: 0;
+	}
+	/* 媒体报道 */
+	.media-section{
+		padding: 0.6rem 0.5rem 0.1rem;
+	}
+	.media-section h4{
+		font-size: 0.32rem;
+		line-height: 1.5;
+		font-weight: bold;
+		margin-bottom: 0.2rem;
+	}
+	.media-section p{
+		margin-bottom: 0.8rem;
+	}
+	/* 订单列表 */
+	.order-section h5{
+		font-size: 0.32rem;
+		font-weight: bold;
+		line-height: 0.9rem;
+		text-align: left;
+		border-bottom: none;
+	}
+	.order-section div{
+		padding-left: 0;
+	}
+	.order-section .col-sm-9{
+		padding-left: 15px;
+	}
+	.order-section .col-sm-9 .col-sm-2{
+		padding: 0;
+	}
+	.my-order .hidden-section{
+		border-top: 1px solid #DDDDDD;
+	}
+	.hidden-section p{
+		text-align: left;
+		border-bottom: none;
+		margin: 0;
+	}
+	.order-main{
+		padding: 0.2rem 0.2rem 0;
+	}
+	.order-list{
+		padding: 0.4rem 0.3rem 0;
+		border-radius: 0.08rem;
+	}
+	.order-list .col-xs-5{
+		padding-left: 0;
+	}
+	.order-number{
+		display: none;
+	}
+	.order-title{
+		padding-bottom: 0.42rem;
+		margin-bottom: 0.36rem;
+	}
+	.mobile-time{
+		font-size: 0.28rem;
+	}
+	.order-detail{
+		width: 1.84rem;
+		height: 0.6rem;
+		line-height: 0.6rem;
+		font-size: 0.28rem;
+	}
+	.order-line{
+		display: none;
+	}
+	.detail-title{
+		padding-bottom: 0.15rem;
+	}
+	.detail-title div{
+		text-align: left;
+		margin-bottom: 0.3rem;
+	}
+	.detail-title .order-number{
+		display: block;
+		margin-left: 0;
+	}
+	.detail-main .mobile-time{
+		margin-bottom: 0.3rem;
+		font-size: 0.32rem;
+	}
+	.order-remark{
+		padding: 0.3rem;
+		margin-bottom: 0.5rem;
+		font-size: 0.26rem;
+	}
+	.pay-section{
+		padding: 0.5rem 0 1.33rem;
+	}
+	.go-paly{
+		width: 2.8rem;
+		height: 0.88rem;
+		right: 0.3rem;
+		bottom: 0.5rem;
+		top: auto;
+	}
+	.detail-main .order-list{
+		margin-bottom: 0.5rem;
+	}
+	.text-tips{
+		margin-bottom: 0.3rem;
+	}
+	/* 新手上路帮助中心页面 */
+	.help-main{
+		padding: 0.6rem 0.5rem 0.5rem;
+	}
+	.new-hands{
+		height: auto;
+		line-height: 0.9rem;
+	}
+	.help-title .col-sm-3,.help-title .r-list{
+		display: none;
+	}
+	.help-title .col-sm-2{
+		text-align: left;
+		padding-left: 0;
+	}
+	.help-section .arrow-btn{
+		right: 0.3rem;
+	}
+	.help-section .hidden-section .current a{
+		color: #666;
+		font-weight: bold;
+	}
+	.help-section .hidden-section p a{
+		font-weight: normal;
+	}
+	.help-section .hidden-section p{
+		height: 1rem;
+		line-height: 0.4rem;
+	}
+	.help-main h3{
+		margin-bottom: 0.2rem;
+		line-height: 1.3;
+	}
+	.problem-list li{
+		padding: 0.4rem 0;
+	}
+	.problem-section{
+		display: none;
+	}
+	.datail1_p{
+		line-height: 1.5;
+	}
+	.left-line{
+		width:0.75rem;
+		height: 1px;
+		background-color: #eee;
+		margin: 0.3rem 0 0.5rem;
+	}
+	/* 保障计划条款 */
+	.items-main .col-sm-6 p{
+        text-align: left;
+        margin: 0.6rem 0;
+	}
+	.items-text{
+		margin-bottom: 0.4rem;
+		line-height: 1.5;
+	}
+	.items-list li{
+		line-height: 1rem;
+	}
+	.items-list li.current .arrow-down{
+		background-position: 0 0;
+	}
+	.hidden-list{
+		padding: 0.24rem 0.24rem 0;
+	}
+	.hidden-list p{
+		margin-bottom: 0.24rem;
+	}
+	/* 免责声明 */
+	.discla-list{
+		margin-left: 0.4rem;
+	}
+	.discla-list p{
+		margin-bottom: 0.2rem;
+		line-height: 1.5;
+	}
+	/* 隐私政策 */
+	.discla-list{
+		margin-left: 0;
+	}
+	.policy-line{
+		margin: 0.4rem 0 0.6rem;
+	}
+	/* 保障计划条款 */
+	.items-left{
+		margin-left: 0.4rem;
+	}
+	.items-sub{
+		margin-left: 0.8rem;
+	}
+	/* 定制旅行 */
+	.travel-bg,.travel-main h4{
+		display: none;
+	}
+	.travel-main{
+		width: auto;
+		padding: 0;
+	}
+	.travel-main input{
+		height: 0.8rem!important;
+		line-height: 0.8rem!important;
+		font-size: 0.38rem;
+		margin-top: 0!important;
+	}
+	.order-time{
+		height: 0.9rem;
+		border-radius: 0.5rem!important;
+	}
+	.travel-title{
+		margin: 0.55rem 0 0.6rem;
+	}
+	.travel-detail{
+		padding: 0 0.5rem 0.5rem;
+		margin-bottom: 0.5rem;
+		line-height: 1.5;
+	}
+	.travel-h{
+		font-size: 0.5rem;
+		text-align: center;
+		line-height: normal!important;
+		margin-bottom: 0.5rem;
+	}
+	.travel-time{
+		width: 6.5rem;
+		float: none;
+		height: 0.8rem;
+		margin: 0 auto 0.5rem;
+	}
+	.travel-city{
+		padding-top: 0.5rem;
+		border-top: 1px solid #eee;
+	}
+	.add-city{
+		width: 6.5rem;
+		height: 0.9rem;
+		float: none;
+		border-radius: 0.5rem!important;
+		margin: 0 0.5rem 0.25rem;
+	}
+	.travel-time input{
+		height: 0.7rem;
+		margin-top: 0.1rem;
+	}
+	.add-btn{
+		width: 6.5rem;
+		height: 0.4rem;
+		display: inline-block;
+		text-align: right;
+		margin: 0 0.5rem 0.38rem;
+	}
+	.add-btn i{
+        width: 1.92rem;
+        height: 0.4rem;
+        margin: 0;
+        background: url("../images/add-citym.jpg")/*tpa=http://www.wanzi.cc/images/add-citym.jpg*/;
+        -webkit-background-size: 100% 100%;
+        background-size: 100% 100%;
+	}
+	.city-section1{
+		border-bottom: 1px solid #eee;
+		margin-bottom: 0.5rem;
+	}
+	.order-min,.order-add{
+		width: 0.76rem;
+		height: 0.76rem;
+		position: absolute;
+		top: 0;
+	}
+	.order-min{
+		left: 0;
+		background: url("../images/min-m.png")/*tpa=http://www.wanzi.cc/images/min-m.png*/;
+		-webkit-background-size: 100% 100%;
+		background-size: 100% 100%;
+	}
+	.order-add{
+		right: 0;
+		background: url("../images/add-m.png")/*tpa=http://www.wanzi.cc/images/add-m.png*/;
+		-webkit-background-size: 100% 100%;
+		background-size: 100% 100%;
+	}
+	#person-num{
+		height: 0.6rem!important;
+		margin-top: 0.1rem!important;
+		border-radius: 0!important;
+		line-height: 0.6rem!important;
+	}
+	.person-section{
+		padding: 0 0.5rem;
+	}
+	.person-section .col-sm-6{
+		overflow: hidden;
+	}
+	.person-single{
+		display: none;
+	}
+	.person-main{
+		float: right;
+		height: 0.8rem;
+	}
+	.car_radio{
+		width: 2.6rem;
+		height: 1.2rem;
+		position: relative;
+	}
+	.car_radio label{
+		width: 2.6rem;
+		height: 0.4rem;
+		margin: 0.5rem 0 0 0;
+		line-height: 0.4rem;
+	}
+	.car_radio label i{
+		width: 0.4rem;
+		height: 0.4rem;
+		top: 0.18rem;
+		background: url("../images/no_check1.png")/*tpa=http://www.wanzi.cc/images/no_check1.png*/;
+		-webkit-background-size: 100% 100%;
+		background-size: 100% 100%;
+	}
+	.car_radio label.current i{
+		background: url("../images/check1.png")/*tpa=http://www.wanzi.cc/images/check1.png*/;
+		-webkit-background-size: 100% 100%;
+		background-size: 100% 100%;
+	}
+	.car_radio input{
+		height: 0.4rem!important;
+		line-height: 0.4rem!important;
+	}
+	.order-remarks{
+		margin-top: 0.35rem;
+		padding: 0.4rem 0.5rem 0;
+		margin-bottom: 0.3rem;
+		line-height: 1.5;
+	}
+	.remarks-text{
+		width: 6.5rem;
+		height: 2rem;
+		padding-bottom: 0.4rem;
+		margin: 0 0.5rem 0.4rem;
+	}
+	.remarks-text span{
+		font-size: 0.28rem;
+	}
+	.remarks-text textarea{
+		height: 1.5rem;
+		padding: 0.14rem;
+	}
+	.submit-btn{
+		width: 3.1rem;
+		height: 0.94rem;
+		margin-bottom: 0.9rem;
+	}
+	.city-name i{
+		width: 0.24rem;
+		height: 0.24rem;
+		top: 0.33rem;
+		right: 0.8rem;
+		background: url("../images/delte-m.png")/*tpa=http://www.wanzi.cc/images/delte-m.png*/;
+		-webkit-background-size: 100% 100%;
+		background-size: 100% 100%;
+	}
+	.city-name input{
+		padding-right: 0.4rem;
+	}
+	/* 定制旅行提交成功页面 */
+    .travel-img,.travel-w,.travel-line,.travel-app{
+    	display: none;
+    }
+    .travel-m{
+    	width: 4.58rem;
+    	height: 2.89rem;
+    	margin: 1.15rem auto 0;
+    	display: block;
+    }
+    .success-text{
+    	font-size: 0.32rem;
+    	margin: 0.76rem 0 1.2rem;
+    }
+    .success-detail{
+    	padding: 0 0.5rem;
+    	font-size: 0.28rem;
+    	text-align: left;
+    	margin-bottom: 0.3rem;
+    }
+    .see-order{
+    	width: 3rem;
+    	height: 0.98rem;
+    	line-height: 0.98rem;
+    	margin: 0.6rem auto 0.9rem;
+    }
+    /* 订单成功页面 */
+    .order-success{
+    	width: 5.32rem;
+    	height: 3.1rem;
+    }
+    /* 订单失败页面 */
+    .order-fail{
+    	width: 5.32rem;
+    	height: 3.31rem;
+    }
+    .order-status{
+    	margin: 0.5rem auto 1.2rem;
+    }
+    /* 订单支付页面 */
+    .mode-m{
+    	display: none;
+    }
+    .pay-m{
+    	margin: 0.14rem 0 0.25rem;
+    }
+    .pay-bt{
+    	margin-bottom: 0.45rem;
+    }
+    .go-pay{
+    	width: 3.28rem;
+    	height: 1rem;
+    	margin-bottom: 0.2rem;
+    }
+    .text-go{
+    	text-align: center;
+    }
+    .pay-no{
+    	text-align: left;
+    	margin-bottom: 0.5rem;
+    }
+    .pay-common{
+    	font-size: 0.28rem;
+    }
+    .underline-pay{
+    	margin: 0 0 0.4rem 0;
+    }
+    /* 服务标准页面 */
+    .set-pc,.setm-section{
+    	display: none;
+    }
+    .set-m{
+    	display: block;
+    }
+    .standard-main{
+    	padding-bottom: 0.9rem;
+    }
+    .standard-main .row{
+        padding: 0 0 0.9rem 0;
+    }
+    .standard-main .row:last-child{
+    	padding-bottom: 0;
+    }
+    .standard-main h4{
+    	margin: 0.9rem 0 0.5rem;
+    }
+    .standard-main p{
+    	margin: 0 0 0.9rem;
+    	font-size: 0.32rem;
+    	line-height: 1.7;
+    }
+    /* 为什么成为丸�?*/
+    .why-guide{
+    	height: auto;
+    }
+	.why-guide .left-m{
+		width: 100%;
+		height: 4.1rem;
+		background: url("../images/why-m.png")/*tpa=http://www.wanzi.cc/images/why-m.png*/;
+		-webkit-background-size: cover;
+		background-size: cover;
+		background-position: 50% 50%;
+	}
+	.why-guide .left img{
+		width: 100%;
+	}
+	.why-guide .right{
+		width: 100%;
+		height: auto;
+		padding: 0.5rem 0.76rem 0.54rem;
+		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+	}
+	.why-guide .right h2{
+        font-size: 0.48rem;
+        margin: 0 0 0.5rem;
+        line-height: 1.3;
+	}
+	.why-guide .right p{
+		margin-bottom: 0.36rem;
+	}
+	.why-video{
+		margin-bottom: 1.5rem;
+	}
+	.why-video h4{
+		margin: 0.9rem 0 0.55rem;
+		text-align: left;
+	}
+	.why-video video,.why-video img,.why-video .video-box{
+		width: 6.5rem!important;
+		height: 3.65rem!important;
+	}
+	.why-video .video-box i{
+		width: 0.78rem;
+		height: 0.78rem;
+		margin-left: -0.39rem;
+		margin-top: -0.39rem;
+		-webkit-background-size: 100% 100%;
+		background-size: 100% 100%;
+	}
+	.join-wanzi{
+		height: 12rem;
+	}
+	.join-wanzi .left{
+		width: 100%;
+		padding: 0.8rem 1.3rem 0.66rem;
+		position: absolute;
+		left: 0;
+		top: 5.6rem;
+		height: 6.4rem;
+	}
+	.join-wanzi .right{
+		width: 100%;
+		height: 5.6rem;
+		background: url("../images/why1-m.png")/*tpa=http://www.wanzi.cc/images/why1-m.png*/;
+		webkit-background-size: cover;
+	    background-size: cover;
+	    background-position: 50% 50%;
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+	.join-wanzi .left a{
+		width: 3.45rem;
+		height: 0.95rem;
+		font-size: 0.36rem;
+		margin: 0.7rem auto 0;
+	}
+	.join-reasons{
+		padding: 0 1rem 0.5rem;
+	}
+	.join-reasons h4{
+		font-size: 0.48rem;
+		margin: 1.26rem 0 1rem;
+	}
+	.join-reasons img.set-pc{
+		display: none;
+	}
+	.join-reasons img.set-m{
+		display: block;
+		margin: 0 auto;
+	}
+	.join-reasons p{
+		margin-bottom: 0.5rem;
+		font-size: 0.28rem;
+		padding: 0;
+	}
+	.join-reasons h5{
+		margin: 0 0 0.3rem;
+		font-size: 0.36rem;
+	}
+	.why-icon1{
+		width: 2.33rem;
+		height: 1.83rem;
+	}
+	.why-icon2{
+		width: 2.08rem;
+		height: 1.82rem;
+	}
+}

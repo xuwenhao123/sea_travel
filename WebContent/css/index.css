@@ -1,0 +1,645 @@
+/* banner */
+#swiper1{
+	height: 600px;
+	cursor: pointer;
+}
+.banner-arrow{
+	width: 200px;
+	height: 600px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 8;
+	cursor: pointer;
+}
+.banner-arrow:last-child{
+	right: 0;
+	left: auto;
+}
+#swiper1 .swiper-button-prev1,#swiper1 .swiper-button-next1{
+	width: 70px;
+	height: 71px;
+	top: 50%;
+	margin-top: -35px;
+	cursor: pointer;
+	opacity: 0;
+	position: absolute;
+}
+#swiper1 .swiper-button-prev1{
+	left: 25px;
+	background: url("../images/spring.png")/*tpa=http://www.wanzi.cc/images/spring.png*/ no-repeat -72px 0;
+}
+#swiper1 .swiper-button-next1{
+	right: 25px;
+	background: url("../images/spring.png")/*tpa=http://www.wanzi.cc/images/spring.png*/ no-repeat 0 0;
+}
+.banner-slide{
+	height: 600px!important;
+	width: 100%!important;
+	background-size: cover!important;
+	background-position: 50%,50%!important;
+}
+.banner-slide h2,.banner-slide p{
+	width: 100%;
+	overflow: hidden;
+}
+.banner-slide h2{
+	font-weight: bold;
+}
+.banner-slide p.guide-name{
+	margin-top: 85px;
+}
+.guide-name span:first-child{
+	font-weight: bold;
+	margin-right: 16px;
+}
+.banner-bottom{
+	width: 100%;
+	height: 160px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0) -webkit-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.5) 100%) repeat scroll 0 0;
+	background: rgba(0, 0, 0, 0) -moz-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.5) 100%) repeat scroll 0 0;
+	background: rgba(0, 0, 0, 0) -o-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.5) 100%) repeat scroll 0 0;
+	background: rgba(0, 0, 0, 0) -ms-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.5) 100%) repeat scroll 0 0;
+	background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.5) 100%) repeat scroll 0 0;
+}
+.banner-bottom .container{
+	position: absolute;
+	left: 50%;
+	bottom: 10px;
+	-webkit-transform: translate(-50%,0);
+	-ms-transform: translate(-50%,0);
+	transform: translate(-50%,0);
+}
+.banner-bottom .container .col-sm-4{
+	padding-right: 0;
+}
+.circle-container{
+	position: absolute!important;
+	left: 50%!important;
+	bottom: 50px!important;
+	z-index: 15!important;
+	-webkit-transform: translate(-50%,0)!important;
+	-ms-transform: translate(-50%,0)!important;
+	transform: translate(-50%,0)!important;
+}
+.banner-circle{
+	width: 202px!important;
+	height: 10px;
+	position: absolute!important;
+	right: -50px;
+	bottom: 0!important;
+	z-index: 15!important;
+}
+.swiper-pagination-bullet{
+	width: 10px;
+	height: 10px;
+	float: left;
+	border: none;
+	border-radius: 50%;
+	margin-right: 20px;
+	transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out; 
+	-webkit-transition: all 0.2s ease-out; 
+	-o-transition: all 0.2s ease-out; 
+	background-color: #fff!important;
+	opacity: 0.6!important;
+}
+.banner-circle span:last-child{
+	margin-right: 0;
+}
+.banner-circle span.swiper-pagination-bullet-active{
+	width: 40px;
+	margin-right: 20px;
+	border-radius: 10px;
+	opacity: 1!important;
+	background-color: #fff;
+}
+.sear-area{
+	width: 462px;
+	height: 55px;
+	position: absolute;
+	top: 422px;
+	left: 50%;
+	z-index: 10;
+	margin-left: -232px;
+}
+.sear-area input{
+	width: 100%;
+	height: 55px;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	padding: 18px 40px 18px 16px;
+	background-color: #fff;
+}
+.sear-area span{
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	top: 19px;
+	right: 20px;
+	cursor: pointer;
+	display: inline-block;
+	background: url("../images/spring.png")/*tpa=http://www.wanzi.cc/images/spring.png*/ no-repeat -261px -19px;
+}
+.comment-section{
+	position: relative;
+	margin-bottom: 16px;
+	overflow: hidden;
+}
+.comment-section img{
+	border-radius: 4px;
+}
+.comment-section p{
+	width: 100%;
+	height: 44px;
+	border-radius: 0 0 4px 4px;
+	line-height: 44px;
+	padding: 0 10px;
+	position: absolute;
+	left: 0;
+	bottom: -54px;
+	background-color: rgba(0,0,0,0.4);
+}
+.text-overflow{
+	width: 49%;
+	display: inline-block;
+}
+.swiper-slide{
+	margin-bottom: 44px;
+}
+/* 备受好评的丸�?*/
+#swiper2 .col-xs-4{
+	width: 33.33333%!important;
+	box-sizing: border-box!important;
+	-webkit-box-sizing: border-box!important;
+}
+.guide-tag{
+	margin-right: 12px;
+}
+.computer-swiper .swiper-slide{
+	width: 304px!important;
+	margin-right: 29px;
+	float: left;
+}
+#swiper2 .swiper-wrapper{
+	display: block;
+}
+#swiper2 p.text-overflow{
+	width: 100%;
+}
+#swiper2 p{
+	margin-bottom: 4px;
+}
+.common-name{
+	font-weight: bold;
+}
+/* 尊享品质服务 */
+.service-section1{
+	padding-bottom: 50px;
+}
+.service-section1 .col-sm-6,.service-section1 .col-xs-12{
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.service-list img{
+	border-radius: 4px;
+}
+.service-title{
+	width: 206px;
+	height: 110px;
+	border: 2px solid rgba(255,255,255,0.7);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -55px;
+	margin-left: -103px;
+}
+.service-title p{
+	width: 192px;
+	height: 96px;
+	margin: 5px;
+	display: block;
+	line-height: 96px;
+	background-color: rgba(255,255,255,0.7);
+}
+.service-explain{
+	width: 94%;
+	height: 100%;
+	padding: 60px 56px 0;
+	position: absolute;
+	left: 15px;
+	top: 0;
+	opacity: 0;
+	border-radius: 4px;
+	background-color: rgba(0,0,0,0.6);
+}
+.service-explain p.font-size4{
+	margin-bottom: 24px;
+}
+.service-explain p.font-size6{
+	line-height: 1.7;
+}
+/* 旅行者们的评�?*/
+.comment-top{
+	padding: 0 164px 34px;
+	border-bottom: 1px solid #EEEEEE;
+}
+.comment-top .text-color7{
+	line-height: 1.7;
+	height: 200px;
+	overflow-y: auto;
+}
+.text-top{
+	height: 60px;
+	margin-bottom: 19px;
+    position: relative;
+}
+.text-top img{
+	display: inline-block;
+}
+.comment-start{
+    width: 94px;
+    height: 14px;
+    display: inline-block;
+    position: absolute;
+    top: 23px;
+    right: 0;
+}
+.comment-start i,.start-section i{
+	width: 15px;
+	height: 14px;
+	display: inline-block;
+}
+.comment-img,.comment-lit{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	border: 1px solid #eee;
+	margin: 0 10px 9px 0;
+}
+.comment-lit{
+	display: block;
+}
+.comment-bottom{
+	height: 60px;
+	margin: 30px 0 80px;
+}
+.comment-span{
+	width: 180px;
+	height: 60px;
+	display: inline-block;
+	position: relative;
+}
+.comment-span strong{
+	position: absolute;
+	top: 7px;
+	left: 78px;
+}
+.comment-span span{
+	position: absolute;
+	top: 32px;
+	left: 78px;
+}
+/* 四步轻松预订丸子向导 */
+.video_main{
+	display: block;
+}
+.video-p{
+	margin: 20px 0 80px;
+	position: relative;
+}
+.video-p strong{
+	cursor: pointer;
+}
+.video-p .video-section{
+	width: 218px;
+	height: 230px;
+	padding: 40px;
+	background-color: #fff;
+	border: 2px solid #eee;
+	border-radius: 4px;
+	position: absolute;
+	bottom: 46px;
+    right: -37px;
+    z-index: 11;
+    display: none;
+}
+.video-section span{
+	width: 100%;
+	display: block;
+	margin-top: 10px;
+}
+.video-section i{
+	width: 24px;
+	height: 17px;
+	position: absolute;
+	right: 88px;
+    bottom: -17px;
+	background: url("../images/spring.png")/*tpa=http://www.wanzi.cc/images/spring.png*/ no-repeat -282px -74px;
+}
+/* 旅行者们的评�?*/
+#swiper3 .swiper-button-prev,#swiper3 .swiper-button-next{
+	width: 52px;
+	height: 52px;
+	cursor: pointer;
+}
+#swiper3 .swiper-button-prev{
+	left: 30px;
+	background: url("../images/spring.png")/*tpa=http://www.wanzi.cc/images/spring.png*/ no-repeat -56px -74px;
+}
+#swiper3 .swiper-button-next{
+	right: 1px;
+	background: url("../images/spring.png")/*tpa=http://www.wanzi.cc/images/spring.png*/ no-repeat 0 -74px;
+}
+#swiper3 .col-sm-12{
+	padding: 0;
+}
+/* 合作伙伴 */
+.partner-section{
+	padding-bottom: 70px;
+}
+.partner-section p{
+	line-height: 1.5;
+	padding: 0 14px;
+}
+.partner-section img{
+    margin-bottom: 31px;
+}
+.partner-section a:hover{
+	color: #77c0cd;
+}
+/* 中等屏幕 */
+@media (min-width: 768px) and (max-width: 992px) {
+    .container{
+    	width: 840px!important;
+    }
+    .hidden-sm{
+    	display: block!important;
+    }
+}
+/* 手机端样�?*/
+@media (max-width: 768px){
+	#swiper1{
+		height: 3.6rem;
+	}
+	.banner-arrow,.service-explain strong,.partner-section p{
+		display: none;
+	}
+	.banner-slide{
+		height: 3.6rem!important;
+		width: 100%!important;
+		background-size: cover!important;
+		background-position: 50%,50%!important;
+	}
+	.banner-bottom{
+		width: 100%;
+		height: 0.8rem;
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		background: rgba(0, 0, 0, 0) -webkit-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.5) 100%) repeat scroll 0 0;
+		background: rgba(0, 0, 0, 0) -moz-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.5) 100%) repeat scroll 0 0;
+		background: rgba(0, 0, 0, 0) -o-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.5) 100%) repeat scroll 0 0;
+		background: rgba(0, 0, 0, 0) -ms-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.5) 100%) repeat scroll 0 0;
+		background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.5) 100%) repeat scroll 0 0;
+	}
+	.banner-bottom .container{
+		width: 100%;
+		position: absolute;
+		left: 50%;
+		bottom: 0.16rem;
+		padding: 0 0.32rem;
+		-webkit-transform: translate(-50%,0);
+		-ms-transform: translate(-50%,0);
+		transform: translate(-50%,0);
+	}
+	.banner-bottom h2{
+		width: 60%;
+		margin: 0;
+		font-weight: normal;
+		font-size: 0.36rem;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+	.circle-container{
+		width: 100%;
+		height: 0.1rem;
+		bottom: 0.16rem!important;
+	}
+	.banner-bottom .container .col-md-4{
+		margin-top: 0.9rem;
+		padding-right: 0;
+	}
+	.swiper-pagination-bullet{
+		float: left;
+		border: none;
+		border-radius: 50%;
+		margin-right: 0.2rem;
+		transition: all 0.2s ease-out;
+		-moz-transition: all 0.2s ease-out; 
+		-webkit-transition: all 0.2s ease-out; 
+		-o-transition: all 0.2s ease-out; 
+		background-color: #fff!important;
+		opacity: 0.6!important;
+	}
+	#swiper1 .banner-circle{
+		width: 2.2rem!important;
+		position: absolute!important;
+		right: 0;
+		left: auto;
+		bottom: -0.08rem!important;
+		z-index: 15!important;
+	}
+	.banner-circle span:last-child{
+		margin-right: 0;
+	}
+	.banner-circle span.swiper-pagination-bullet-active{
+		width: 0.4rem!important;
+		margin-right: 0.2rem;
+		border-radius: 0.1rem;
+		opacity: 1!important;
+		background-color: #fff!important;
+	}
+	.banner-circle{
+		left: auto;
+		right: 0;
+		bottom: 0.2rem;
+	}
+	.sear-area,.banner-bottom p{
+		display: none!important;
+	}
+	.phone-circl,#phone-js{
+		display: block!important;
+	}
+	.common-h2{
+		text-align: left;
+		margin: 0.9rem 0 0.56rem;
+	}
+	/* 备受好评的丸�?*/
+	#swiper2 .swiper-slide{
+		width: 100%!important;
+		float: left;
+		padding-right: 0;
+		margin-bottom: 0.66rem;
+		-webkit-box-sizing: content-box!important;
+		box-sizing: content-box!important;
+	}
+	#swiper2 .swiper-wrapper{
+		display: -webkit-box;
+	    display: -moz-box;
+	    display: -ms-flexbox;
+	    display: -webkit-flex;
+	    display: flex;
+	}
+	.computer-swiper .swiper-slide{
+		width: 100%!important;
+		margin-right: auto;
+		float: none;
+	}
+	.guide-tag{
+		margin-right: 0.26rem;
+	}
+	#swiper2 p{
+		margin-bottom: 0.1rem;
+	}
+	.comment-section{
+		margin-bottom: 0.3rem;
+	}
+	.comment-section p{
+		bottom: 0;
+		height: 0.74rem;
+		margin: 0!important;
+		line-height: 0.74rem;
+	}
+	i.lit{
+		width: 0.22rem;
+		height: 0.28rem;
+		background: url("../images/city-img.png")/*tpa=http://www.wanzi.cc/images/city-img.png*/;
+		-webkit-background-size: 100% 100%;
+		background-size: 100% 100%;
+	}
+	/* 尊享品质服务 */
+	.service-section{
+		margin-bottom: 0;
+	}
+	.service-section .col-sm-6,.service-section .col-xs-12{
+	    margin-bottom: 0;
+	    overflow: visible;
+	}
+	.service-list img{
+		width: 100%;
+	}
+	.service-title{
+		width: 152px;
+		height: 82px;
+		border: 2px solid rgba(255,255,255,0.6);
+		position: absolute;
+		top: 34%;
+		left: 50%;
+		margin-left: -1.52rem;
+	}
+	.service-title p{
+		width: 140px;
+		height: 70px;
+		margin: 4px;
+		display: block;
+		left: auto;
+		bottom: auto;
+		line-height: 70px;
+		background-color: rgba(255,255,255,0.7);
+	}
+	.service-explain{
+		width: 100%;
+		height: 100%;
+		padding: 0;
+		position: static;
+		left: auto;
+		bottom: auto;
+		opacity: 1;
+		background-color: transparent;
+	}
+	.service-explain .font-size6{
+		margin: 0.36rem 0;
+		line-height: 1.7;
+	}
+	.service-explain p.font-size4{
+		margin: 0;
+	}
+	.service-explain p{
+        color: #333;
+        text-align: left;
+	}
+	.video_main{
+		display: none;
+	}
+	/* 预定丸子向导 */
+	.order-video{
+		display: none;
+	}
+	/* 旅行者们的评�?*/
+	#swiper3 .swiper-button-prev,#swiper3 .swiper-button-next{
+		width: 1.04rem;
+		height: 1.04rem;
+		bottom: 0.9rem;
+		top: auto;
+	}
+	#swiper3 .swiper-slide{
+		margin-bottom: 0.44rem;
+	}
+	#swiper3 .swiper-button-prev{
+		left: 0.5rem;
+		background: url("../images/comment-l.png")/*tpa=http://www.wanzi.cc/images/comment-l.png*/;
+		-webkit-background-size: 100% 100%;
+		background-size: 100% 100%;
+	}
+	#swiper3 .swiper-button-next{
+		right: 0.5rem;
+		background: url("../images/comment-r.png")/*tpa=http://www.wanzi.cc/images/comment-r.png*/;
+		-webkit-background-size: 100% 100%;
+		background-size: 100% 100%;
+	}
+	.comment-top{
+		width: 6.5rem;
+		padding: 0;
+	}
+	.comment-img, .comment-lit{
+		width: 1.2rem;
+		height: 1.2rem;
+		border-radius: 50%!important;
+	}
+	.comment-start{
+		width: 1.98rem;
+	}
+	.comment-bottom{
+		width: 7.5rem;
+		margin: 0.62rem 0.5rem 0.46rem -0.5rem;
+	}
+	.comment-span{
+		width: 3.2rem;
+		overflow: hidden;
+		white-space: nowrap;
+	    text-overflow: ellipsis;
+	}
+	.comment-span span{
+		top: 0.6rem;
+		left: 1.56rem;
+	}
+	.comment-span strong{
+		top: 0.07rem;
+		left: 1.56rem;
+	}
+	/* 合作伙伴 */
+	.text-bottom{
+		height: auto;
+		padding: 1.26rem 0 0.52rem;
+	}
+	.partner-section img{
+		margin-bottom: 0.2rem;
+	}
+}

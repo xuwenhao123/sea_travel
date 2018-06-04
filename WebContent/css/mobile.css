@@ -1,0 +1,278 @@
+@media (max-width: 768px){
+	body{
+		padding-top: 1.76rem;
+	}
+	/* 丸子详细资料 */
+	.mobile-main{
+		font-size: 0.32rem;
+		color: #333;
+		line-height: 1.5;
+		background-color: #fff;
+	}
+	.mobile-main h6{
+       padding: 0.3rem 0;
+       margin: 0;
+       font-size: 0.32rem;
+       border-bottom: 1px solid #eee;
+    }
+    .mobile-main .bottom{
+    	padding: 0.5rem 0.5rem 0;
+    }
+    .mobile-main .bottom div.common-area{
+    	border-bottom: 1px solid #eee;
+    	padding-bottom: 0.42rem;
+    }
+    .sub-title{
+    	padding-top: 0.5rem;
+    }
+    .mobile-main .bottom div.last-section{
+    	padding-bottom: 1.72rem;
+    	border-bottom: none;
+    }
+    .mobile-main .bottom p{
+    	margin-bottom: 0.3rem;
+    }
+    .mobile-main .bottom p span{
+    	margin-right: 0.54rem;
+    	color: #666;
+    }
+    .mobile-main .bottom p.font-size2{
+    	margin-bottom: 0.44rem;
+    }
+    .mobile-main .bottom p i.line{
+		width: 0.08rem;
+		height: 0.4rem;
+		background-color: #77c0cd;
+		border-radius: 0.04rem;
+		margin-right: 0.12rem;
+	}
+	/* 当地推荐 */
+	.recommand-main{
+		margin-bottom: 0.32rem;
+	}
+	#swiper1,#swiper2{
+		/* overflow: visible; */
+		padding-bottom: 1.72rem;
+	}
+	#swiper1 img{
+		width: 6.5rem;
+		height: 4.37rem;
+	}
+	/* 服务费用说明 */
+	.service-section{
+		padding: 0.5rem 0 0;
+	}
+	.common-text{
+		padding: 0 0.5rem 0.9rem;
+		margin: 0!important;
+	}
+	.service-section ul{
+		width: 100%;
+		margin: 0;
+		height: 49px;
+		padding: 0.3rem 0;
+		background-color: #fff;
+		padding-left: 0;
+		position: relative;
+		overflow: hidden;
+		border-bottom: 2px solid #eee;
+	}
+	.service-section ul::after{
+		content: " ";
+	    display: block;
+	    position: absolute;
+	    bottom: 0;
+	    height: 34px;
+	    width: 1.4rem;
+	    border-left: .08rem solid #fff;
+	    background: -webkit-linear-gradient(to right,#fff 0,rgba(255,255,255,0) 100%);
+	    background: linear-gradient(to right,#fff 0,rgba(255,255,255,0) 100%);
+	    pointer-events: none;
+	    -webkit-transition: .25s;
+	    transition: .25s;
+	    right: 0;
+	    -webkit-transform: rotate(180deg);
+	    -ms-transform: rotate(180deg);
+	    transform: rotate(180deg);
+	}
+	.service-section ul li{
+		width: 25%;
+		height: 34px;
+		font-size: 0.3rem;
+		float: left;
+		white-space:nowrap;
+	}
+	.service-section ul li a{
+		padding: 0 0.24rem 11px;
+	}
+	.service-section ul li.active a{
+		border-bottom: 2px solid #77c0cd;
+	}
+	.service-main{
+		padding: 0 0.5rem;
+	}
+	.service-main h6{
+		border-bottom: none;
+		margin: 0.83rem 0 0.54rem;
+	}
+	.service-main h6 i{
+		width: 6px;
+	    height: 1px;
+	    margin: 0 7px;
+	    background-color: #333333;
+	}
+	.service-main .clearfix p{
+		float: left;
+		margin-bottom: 0.24rem;
+	}
+	.service-main .clearfix p:first-child{
+        width: 30%;
+	}
+	.service-main .clearfix p:last-child{
+        width: 70%;
+	}
+	/* 个人简介 */
+	.brief-section{
+		padding-bottom: 0.3rem;
+	}
+	.brief-section h5{
+		font-weight: bold;
+	}
+	.brief-section p{
+		line-height: 1.7;
+		margin-bottom: 0.32rem;
+	}
+	.brief-section img{
+		border-radius: 0!important;
+	}
+	/* 相册 */
+	.photo-section .bottom{
+		padding: 0;
+	}
+	.photo-section .bottom img.img-responsive{
+		border-radius: 0!important;
+	}
+	.photo-section .bottom ul{
+		padding: 0.12rem 0 0.58rem 0.12rem;
+		overflow: hidden;
+	}
+	.photo-section .bottom ul li,.photo-section .bottom ul li img{
+		width: 2.34rem;
+		height: 2.34rem;
+		float: left;
+		margin: 0 0.12rem 0.12rem 0;
+	}
+	.photo-section .slide-main{
+		padding: 0.72rem 0.5rem 0;
+	}
+	#swiper2 img{
+		width: 6.5rem;
+	    height: 4.37rem;
+	    border-radius: 0.08rem!important;
+	}
+	#swiper2 .swiper-slide p{
+		width: 100%;
+	    height: 26px;
+	    padding: 0 10px;
+	    line-height: 26px;
+	    position: absolute;
+	    left: 0;
+	    bottom: 0;
+	    margin: 0;
+	    border-radius: 0 0 4px 4px;
+	    background-color: rgba(0,0,0,0.4)
+	}
+	#swiper2 .swiper-slide p span{
+		color: #fff;
+	}
+	.black_gray{
+		background-color: #000;
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		z-index: 20;
+		display: none;
+	}
+	.comment_container{
+	    /* z-index: 22!important; */
+	    position: fixed!important;
+	    top: 0;
+	    left: 0;
+	    display: none;
+	    width: 100%;
+	}  
+	.comment_container .swiper-slide{
+		width: 100%!important;
+		margin-right: 0;
+	}
+	.comment_container .swiper-slide img{
+		max-width: 100%;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		-webkit-transform: translate(-50%,-50%);
+		-ms-transform: translate(-50%,-50%);
+		transform: translate(-50%,-50%);
+	}
+	.comment_container .swiper-slide p{
+		width: 100%;
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		margin-bottom: 0;
+		z-index: 22;
+		padding: 0.5rem;
+		color: #fff;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	    background: -webkit-linear-gradient(#333333 10%,#0C0C0C);
+	}
+	.photo-name{
+		width: 100%;
+		color: #fff;
+		z-index: 22;
+		position: fixed;
+		top: 0.2rem;
+		left: 0;
+	}
+	/* 搜索页面 */
+	.search_action{
+		background-color: #fff;
+	}
+	.search_action ul{
+        padding: 0;
+	}
+	.search_action li{
+		line-height: 1.28rem;
+		border-bottom: 1px solid #E7E7E7;
+	}
+	.hot_city h1{
+        font-size: 0.5rem;
+        margin: 0.44rem 0 0.3rem;
+	}
+	.city_btn {
+	    display: inline-block;
+	    padding: 0.16rem 0.4rem;
+	    border: 1px solid #77c0cd;
+	    border-radius: 0.5rem;
+	    background-color: #fff;
+	    margin: 0 0.2rem 0.3rem 0;
+	}
+	.search_no{
+		padding: 2.75rem 0.5rem;
+	}
+	.search_no a {
+	    width: 2.8rem;
+	    height: 0.88rem;
+	    display: inline-block;
+	    text-align: center;
+	    line-height: 0.88rem;
+	    border-radius: 4px;
+	    margin-top: 0.78rem;
+	    color: #71c0cd;
+	    background-color: transparent;
+	    border: 1px solid #71c0cd;
+	}
+}
